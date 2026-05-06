@@ -36,7 +36,7 @@ cd ~/ardupilot
 ## 4. Start ArduPilot SITL
 
 ```bash
-sim_vehicle.py -v ArduCopter --console --map
+python Tools/autotest/sim_vehicle.py -v ArduCopter --console --map
 ```
 
 Expected Result:
