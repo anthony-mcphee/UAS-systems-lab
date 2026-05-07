@@ -1,8 +1,28 @@
-# Startup Workflow
+cat > ~/drone-control/README.md << 'EOF'
+# UAS Systems Lab Startup Workflow
 
 ## Purpose
 
-This document standardizes startup and operational procedures for the UAS Systems Lab environment.
+This document standardizes startup and operational procedures for the UAS Systems Lab environment using:
+
+- Ubuntu WSL
+- ArduPilot SITL
+- MAVProxy
+- QGroundControl
+- Python MAVLink control scripts
+
+---
+
+# System Architecture
+
+\`\`\`text
+ArduPilot SITL
+        ↓
+    MAVProxy
+     ↙     ↘
+QGroundControl   Python Script
+   14550             14551
+\`\`\`
 
 ---
 
@@ -12,113 +32,180 @@ This document standardizes startup and operational procedures for the UAS System
 
 Launch Ubuntu terminal environment.
 
+Verify no virtual environment is active.
+
 ---
 
-## 2. Activate Python Virtual Environment
+## 2. Start ArduPilot SITL
 
-```bash
-source ~/venv-ardupilot/bin/activate
-```
+Open **Terminal 1**:
+
+\`\`\`bash
+cd ~/ardupilot/ArduCopter
+../Tools/autotest/sim_vehicle.py -v ArduCopter -f quad --no-mavproxy
+\`\`\`
 
 Expected Result:
-- `(venv-ardupilot)` appears in terminal prompt.
+- ArduCopter SITL starts
+- TCP port 5760 opens
+- Vehicle initializes successfully
+
+Example Output:
+
+\`\`\`text
+SERIAL0 on TCP port 5760
+Home: -35.363262 149.165237
+\`\`\`
+
+Leave this terminal running.
 
 ---
 
-## 3. Navigate to ArduPilot Directory
+## 3. Start MAVProxy
 
-```bash
-cd ~/ardupilot
-```
+Open **Terminal 2**:
 
----
-
-## 4. Start ArduPilot SITL
-
-```bash
-python Tools/autotest/sim_vehicle.py -v ArduCopter --console --map
-```
-
-Expected Result:
-- ArduCopter simulation launches
-- Map window appears
-- MAVProxy console opens
-- Vehicle initializes
-
----
-
-## 5. Verify MAVProxy Output Ports
-
-Within MAVProxy console:
-
-```bash
-output add 127.0.0.1:14550
-output add 127.0.0.1:14551
-```
+\`\`\`bash
+mavproxy.py --master=tcp:127.0.0.1:5760 --out=127.0.0.1:14550 --out=127.0.0.1:14551
+\`\`\`
 
 Purpose:
-- Port 14550 used by QGroundControl
-- Port 14551 used by Python MAVLink scripts
+- Connect MAVProxy to SITL
+- Route MAVLink telemetry
+
+Port Usage:
+- \`14550\` → QGroundControl
+- \`14551\` → Python MAVLink scripts
+
+Expected Result:
+
+\`\`\`text
+Detected vehicle 1:1
+online system 1
+MAV>
+\`\`\`
+
+Leave this terminal running.
 
 ---
 
-## 6. Launch QGroundControl
+## 4. Launch QGroundControl
 
-Start QGroundControl AppImage.
+Open **Terminal 3**:
+
+If \`(venv)\` or \`(venv-ardupilot)\` appears:
+
+\`\`\`bash
+deactivate
+\`\`\`
+
+\`\`\`bash
+cd ~
+LIBGL_ALWAYS_SOFTWARE=1 ./QGroundControl-x86_64.AppImage
+\`\`\`
 
 Expected Result:
 - Vehicle automatically connects
-- HUD displays telemetry
-- Vehicle location visible on map
+- Telemetry visible
+- Vehicle displayed on map
+- No communication errors
 
 ---
 
-## 7. Verify MAVLink Telemetry
+## 5. Verify MAVLink Telemetry
 
 Confirm:
 - heartbeat present
 - GPS lock established
 - telemetry values updating
-- no connection errors
+- battery telemetry visible
+- no disconnects
 
 ---
 
-## 8. Start Python MAVLink Script
+## 6. Activate Python Mission Environment
 
-Example:
+Open **Terminal 4**:
 
-```python
-from pymavlink import mavutil
+\`\`\`bash
+cd ~/drone-control
+source venv/bin/activate
+\`\`\`
 
-master = mavutil.mavlink_connection("udpin:127.0.0.1:14551")
-master.wait_heartbeat()
+Expected Result:
 
-print("Heartbeat received")
-```
+\`\`\`bash
+(venv)
+\`\`\`
+
+---
+
+## 7. Verify Python MAVLink Connection
+
+Run the heartbeat test script:
+
+\`\`\`bash
+python heartbeat_test.py
+\`\`\`
 
 Expected Result:
 - Script connects successfully
 - Heartbeat received
+- QGroundControl remains connected
 
 ---
 
-## 9. Execute Mission
+## 8. Execute Mission
 
-Example operations:
+Example mission sequence:
+- set GUIDED mode
 - arm vehicle
 - takeoff
 - waypoint navigation
-- return-to-launch
+- loiter
+- return
+- land
 
 ---
 
-## 10. Shutdown Procedure
+# Shutdown Procedure
 
-Close in order:
-1. Python scripts
-2. QGroundControl
-3. MAVProxy
-4. SITL terminal
+Shutdown order:
+
+## Terminal 4 (Python)
+
+\`\`\`bash
+Ctrl + C
+deactivate
+\`\`\`
+
+---
+
+## Terminal 3 (QGroundControl)
+
+Close window normally.
+
+If needed:
+
+\`\`\`bash
+pkill -f QGroundControl
+\`\`\`
+
+---
+
+## Terminal 2 (MAVProxy)
+
+\`\`\`bash
+Ctrl + C
+\`\`\`
+
+---
+
+## Terminal 1 (SITL)
+
+\`\`\`bash
+Ctrl + C
+\`\`\`
 
 ---
 
@@ -127,34 +214,62 @@ Close in order:
 ## Connection Refused
 
 Possible Causes:
-- SITL not fully initialized
-- MAVProxy outputs not configured
-- incorrect UDP port
-- startup sequence incorrect
+- SITL not started
+- MAVProxy launched before SITL fully initialized
+- TCP port 5760 unavailable
+
+Verify:
+
+\`\`\`bash
+ss -tlnp | grep 5760
+\`\`\`
 
 ---
 
-## No QGroundControl Connection
+## QGroundControl "Communication Lost"
 
-Verify:
-- MAVProxy outputs active
-- UDP port 14550 configured
-- firewall not blocking traffic
+Possible Causes:
+- Python script using port 14550
+- MAVProxy outputs misconfigured
+
+Correct Configuration:
+
+\`\`\`text
+14550 → QGroundControl
+14551 → Python script
+\`\`\`
 
 ---
 
-## Python Script Cannot Connect
+## MAVProxy Missing Modules
 
-Verify:
-- correct UDP port
-- telemetry output exists
-- script waiting for heartbeat
+Install missing dependencies:
+
+\`\`\`bash
+python3 -m pip install --user MAVProxy future --break-system-packages
+\`\`\`
+
+---
+
+## Wrong Virtual Environment
+
+Rules:
+- SITL → no venv
+- MAVProxy → no venv
+- QGroundControl → no venv
+- Python scripts → project venv only
 
 ---
 
 # Lessons Learned
 
-- Startup order matters
-- MAVLink routing must be verified
-- UDP telemetry flow is critical
-- Logs and terminal output provide troubleshooting clues
+- Separate MAVLink outputs prevent connection conflicts
+- QGroundControl and Python scripts should never share the same UDP port
+- Running all components inside Ubuntu WSL simplifies networking
+- MAVProxy is more stable when launched manually
+- Startup order matters:
+  1. SITL
+  2. MAVProxy
+  3. QGroundControl
+  4. Python scripts
+EOF
