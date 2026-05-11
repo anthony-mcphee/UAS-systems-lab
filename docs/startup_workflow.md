@@ -1,4 +1,3 @@
-cat > ~/drone-control/README.md << 'EOF'
 # UAS Systems Lab Startup Workflow
 
 ## Purpose
