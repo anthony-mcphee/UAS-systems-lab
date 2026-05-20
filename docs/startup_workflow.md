@@ -99,7 +99,6 @@ deactivate
 \`\`\`
 
 \`\`\`bash
-cd ~
 LIBGL_ALWAYS_SOFTWARE=1 ./QGroundControl-x86_64.AppImage
 \`\`\`
 
