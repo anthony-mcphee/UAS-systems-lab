@@ -1,0 +1,421 @@
+Connecting to udpin:127.0.0.1:14551...
+Waiting for heartbeat...
+Heartbeat received — SYS:1 COMP:0
+Mode command sent: GUIDED
+Mode confirmed: GUIDED
+Arming vehicle...
+Vehicle armed
+Taking off to 10m...
+  ACK: command 22 ACCEPTED
+  Altitude: 0.0m  Altitude: 0.0m  Altitude: 0.0m  Altitude: 0.0m  Altitude: 0.0m  Altitude: 0.0m  Altitude: 0.0m  Altitude: 0.0m  Altitude: 0.0m  Altitude: 0.0m  Altitude: 0.0m  Altitude: 0.1m  Altitude: 0.2m  Altitude: 0.4m  Altitude: 0.7m  Altitude: 1.0m  Altitude: 1.4m  Altitude: 1.9m  Altitude: 2.4m  Altitude: 3.0m  Altitude: 3.6m  Altitude: 4.2m  Altitude: 4.8m  Altitude: 5.5m  Altitude: 6.1m  Altitude: 6.7m  Altitude: 7.3m  Altitude: 7.9m  Altitude: 8.4m  Altitude: 8.8m  Altitude: 9.2m
+Target altitude reached: 9.2m
+
+=== Beginning search pattern: 10 waypoints ===
+
+--- Flying to WP1 - North | lat=-35.362262, lon=149.165237, alt=20m ---
+  Pos: (-35.362989, 149.165515) Alt: 9.5m | Dist: 84.7m | GS: 0.0 m/s
+  Pos: (-35.362989, 149.165515) Alt: 9.7m | Dist: 84.7m | GS: 0.1 m/s
+  Pos: (-35.362989, 149.165514) Alt: 10.0m | Dist: 84.6m | GS: 0.6 m/s
+  Pos: (-35.362987, 149.165514) Alt: 10.3m | Dist: 84.4m | GS: 1.4 m/s
+  Pos: (-35.362983, 149.165512) Alt: 10.5m | Dist: 84.0m | GS: 2.1 m/s
+  Pos: (-35.362978, 149.165510) Alt: 10.8m | Dist: 83.4m | GS: 2.8 m/s
+  Pos: (-35.362972, 149.165508) Alt: 11.1m | Dist: 82.7m | GS: 3.3 m/s
+  Pos: (-35.362964, 149.165505) Alt: 11.4m | Dist: 81.8m | GS: 3.9 m/s
+  Pos: (-35.362955, 149.165502) Alt: 11.7m | Dist: 80.7m | GS: 4.5 m/s
+  Pos: (-35.362945, 149.165498) Alt: 11.9m | Dist: 79.6m | GS: 5.1 m/s
+  Pos: (-35.362934, 149.165493) Alt: 12.2m | Dist: 78.2m | GS: 5.7 m/s
+  Pos: (-35.362921, 149.165489) Alt: 12.4m | Dist: 76.8m | GS: 6.3 m/s
+  Pos: (-35.362907, 149.165483) Alt: 12.7m | Dist: 75.1m | GS: 6.9 m/s
+  Pos: (-35.362875, 149.165471) Alt: 13.2m | Dist: 71.4m | GS: 8.0 m/s
+  Pos: (-35.362857, 149.165464) Alt: 13.4m | Dist: 69.4m | GS: 8.5 m/s
+  Pos: (-35.362839, 149.165457) Alt: 13.7m | Dist: 67.2m | GS: 9.6 m/s
+  Pos: (-35.362738, 149.165419) Alt: 14.8m | Dist: 55.5m | GS: 9.8 m/s
+  Pos: (-35.362674, 149.165394) Alt: 15.6m | Dist: 48.0m | GS: 10.1 m/s
+  Pos: (-35.362652, 149.165386) Alt: 15.8m | Dist: 45.4m | GS: 10.2 m/s
+  Pos: (-35.362586, 149.165361) Alt: 16.5m | Dist: 37.8m | GS: 10.3 m/s
+  Pos: (-35.362564, 149.165352) Alt: 16.7m | Dist: 35.2m | GS: 10.3 m/s
+  Pos: (-35.362499, 149.165327) Alt: 17.4m | Dist: 27.6m | GS: 10.2 m/s
+  Pos: (-35.362477, 149.165319) Alt: 17.7m | Dist: 25.0m | GS: 10.2 m/s
+  Pos: (-35.362413, 149.165295) Alt: 18.4m | Dist: 17.6m | GS: 9.4 m/s
+  Pos: (-35.362393, 149.165287) Alt: 18.6m | Dist: 15.3m | GS: 8.9 m/s
+  Pos: (-35.362342, 149.165267) Alt: 19.3m | Dist: 9.3m | GS: 7.2 m/s
+  Pos: (-35.362327, 149.165262) Alt: 19.5m | Dist: 7.6m | GS: 6.6 m/s
+  Pos: (-35.362291, 149.165248) Alt: 19.9m | Dist: 3.3m | GS: 4.7 m/s
+  Pos: (-35.362281, 149.165244) Alt: 20.0m | Dist: 2.2m | GS: 4.1 m/s
+  Arrived at WP1 - North
+  Holding at position for 8s...
+
+--- Flying to WP2 - Northeast | lat=-35.362262, lon=149.166237, alt=20m ---
+  Pos: (-35.362262, 149.165237) Alt: 20.0m | Dist: 90.7m | GS: 2.0 m/s
+  Pos: (-35.362258, 149.165235) Alt: 20.0m | Dist: 90.8m | GS: 1.3 m/s
+  Pos: (-35.362256, 149.165234) Alt: 20.0m | Dist: 90.9m | GS: 0.0 m/s
+  Pos: (-35.362256, 149.165235) Alt: 20.0m | Dist: 90.9m | GS: 0.1 m/s
+  Pos: (-35.362257, 149.165235) Alt: 20.0m | Dist: 90.9m | GS: 0.1 m/s
+  Pos: (-35.362257, 149.165235) Alt: 20.0m | Dist: 90.8m | GS: 0.1 m/s
+  Pos: (-35.362262, 149.165237) Alt: 20.0m | Dist: 90.7m | GS: 0.0 m/s
+  Pos: (-35.362262, 149.165237) Alt: 20.0m | Dist: 90.7m | GS: 0.0 m/s
+  Pos: (-35.362262, 149.165238) Alt: 20.0m | Dist: 90.6m | GS: 1.8 m/s
+  Pos: (-35.362262, 149.165249) Alt: 20.0m | Dist: 89.6m | GS: 2.5 m/s
+  Pos: (-35.362262, 149.165257) Alt: 20.0m | Dist: 88.9m | GS: 4.3 m/s
+  Pos: (-35.362262, 149.165290) Alt: 20.0m | Dist: 85.9m | GS: 4.9 m/s
+  Pos: (-35.362262, 149.165304) Alt: 20.0m | Dist: 84.6m | GS: 6.6 m/s
+  Pos: (-35.362262, 149.165356) Alt: 20.0m | Dist: 79.9m | GS: 7.2 m/s
+  Pos: (-35.362262, 149.165377) Alt: 20.0m | Dist: 78.0m | GS: 8.5 m/s
+  Pos: (-35.362262, 149.165445) Alt: 20.0m | Dist: 71.8m | GS: 8.8 m/s
+  Pos: (-35.362262, 149.165470) Alt: 20.0m | Dist: 69.5m | GS: 9.4 m/s
+  Pos: (-35.362262, 149.165548) Alt: 20.0m | Dist: 62.5m | GS: 9.6 m/s
+  Pos: (-35.362262, 149.165574) Alt: 20.0m | Dist: 60.1m | GS: 9.9 m/s
+  Pos: (-35.362262, 149.165656) Alt: 20.0m | Dist: 52.7m | GS: 9.9 m/s
+  Pos: (-35.362262, 149.165683) Alt: 20.0m | Dist: 50.2m | GS: 10.1 m/s
+  Pos: (-35.362262, 149.165767) Alt: 20.0m | Dist: 42.7m | GS: 10.1 m/s
+  Pos: (-35.362262, 149.165795) Alt: 20.0m | Dist: 40.1m | GS: 10.2 m/s
+  Pos: (-35.362262, 149.165879) Alt: 20.0m | Dist: 32.5m | GS: 10.2 m/s
+  Pos: (-35.362262, 149.165907) Alt: 20.0m | Dist: 30.0m | GS: 10.1 m/s
+  Pos: (-35.362262, 149.165990) Alt: 20.0m | Dist: 22.4m | GS: 10.1 m/s
+  Pos: (-35.362262, 149.166018) Alt: 20.0m | Dist: 19.9m | GS: 8.8 m/s
+  Pos: (-35.362262, 149.166093) Alt: 20.0m | Dist: 13.1m | GS: 8.3 m/s
+  Pos: (-35.362262, 149.166115) Alt: 20.0m | Dist: 11.1m | GS: 7.7 m/s
+  Pos: (-35.362262, 149.166172) Alt: 20.0m | Dist: 5.9m | GS: 6.0 m/s
+  Pos: (-35.362262, 149.166188) Alt: 20.0m | Dist: 4.5m | GS: 5.3 m/s
+  Pos: (-35.362262, 149.166213) Alt: 20.0m | Dist: 2.1m | GS: 4.0 m/s
+  Arrived at WP2 - Northeast
+  Holding at position for 8s...
+
+--- Flying to WP3 - East | lat=-35.363262, lon=149.166237, alt=20m ---
+  Pos: (-35.362262, 149.166223) Alt: 20.0m | Dist: 111.2m | GS: 3.3 m/s
+  Pos: (-35.362262, 149.166232) Alt: 20.0m | Dist: 111.2m | GS: 2.7 m/s
+  Pos: (-35.362262, 149.166245) Alt: 20.0m | Dist: 111.2m | GS: 0.6 m/s
+  Pos: (-35.362262, 149.166246) Alt: 20.0m | Dist: 111.2m | GS: 0.2 m/s
+  Pos: (-35.362262, 149.166244) Alt: 20.0m | Dist: 111.2m | GS: 0.1 m/s
+  Pos: (-35.362262, 149.166243) Alt: 20.0m | Dist: 111.2m | GS: 0.1 m/s
+  Pos: (-35.362262, 149.166242) Alt: 20.0m | Dist: 111.2m | GS: 0.1 m/s
+  Pos: (-35.362262, 149.166241) Alt: 20.0m | Dist: 111.2m | GS: 0.1 m/s
+  Pos: (-35.362270, 149.166237) Alt: 20.0m | Dist: 110.3m | GS: 2.3 m/s
+  Pos: (-35.362276, 149.166237) Alt: 20.0m | Dist: 109.6m | GS: 3.0 m/s
+  Pos: (-35.362302, 149.166237) Alt: 20.0m | Dist: 106.8m | GS: 4.7 m/s
+  Pos: (-35.362313, 149.166237) Alt: 20.0m | Dist: 105.5m | GS: 5.3 m/s
+  Pos: (-35.362354, 149.166237) Alt: 20.0m | Dist: 100.9m | GS: 7.1 m/s
+  Pos: (-35.362371, 149.166237) Alt: 20.0m | Dist: 99.1m | GS: 7.6 m/s
+  Pos: (-35.362426, 149.166237) Alt: 20.0m | Dist: 92.9m | GS: 8.8 m/s
+  Pos: (-35.362446, 149.166237) Alt: 20.0m | Dist: 90.7m | GS: 9.0 m/s
+  Pos: (-35.362509, 149.166237) Alt: 20.0m | Dist: 83.7m | GS: 9.5 m/s
+  Pos: (-35.362531, 149.166237) Alt: 20.0m | Dist: 81.3m | GS: 9.7 m/s
+  Pos: (-35.362597, 149.166237) Alt: 20.0m | Dist: 74.0m | GS: 9.9 m/s
+  Pos: (-35.362619, 149.166237) Alt: 20.0m | Dist: 71.5m | GS: 10.0 m/s
+  Pos: (-35.362687, 149.166237) Alt: 20.0m | Dist: 63.9m | GS: 10.1 m/s
+  Pos: (-35.362710, 149.166237) Alt: 20.0m | Dist: 61.4m | GS: 10.1 m/s
+  Pos: (-35.362778, 149.166237) Alt: 20.0m | Dist: 53.8m | GS: 10.2 m/s
+  Pos: (-35.362801, 149.166237) Alt: 20.0m | Dist: 51.3m | GS: 10.1 m/s
+  Pos: (-35.362869, 149.166237) Alt: 20.0m | Dist: 43.7m | GS: 10.1 m/s
+  Pos: (-35.362892, 149.166237) Alt: 20.0m | Dist: 41.1m | GS: 10.1 m/s
+  Pos: (-35.362960, 149.166237) Alt: 20.0m | Dist: 33.6m | GS: 10.1 m/s
+  Pos: (-35.362983, 149.166237) Alt: 20.0m | Dist: 31.1m | GS: 10.1 m/s
+  Pos: (-35.363050, 149.166237) Alt: 20.0m | Dist: 23.5m | GS: 10.0 m/s
+  Pos: (-35.363073, 149.166237) Alt: 20.0m | Dist: 21.0m | GS: 9.9 m/s
+  Pos: (-35.363135, 149.166237) Alt: 20.0m | Dist: 14.1m | GS: 8.5 m/s
+  Pos: (-35.363154, 149.166237) Alt: 20.0m | Dist: 12.0m | GS: 8.0 m/s
+  Pos: (-35.363202, 149.166237) Alt: 20.0m | Dist: 6.6m | GS: 6.2 m/s
+  Pos: (-35.363216, 149.166237) Alt: 20.0m | Dist: 5.1m | GS: 5.6 m/s
+  Pos: (-35.363247, 149.166237) Alt: 20.0m | Dist: 1.6m | GS: 3.7 m/s
+  Arrived at WP3 - East
+  Holding at position for 8s...
+
+--- Flying to WP4 - Southeast | lat=-35.364262, lon=149.166237, alt=20m ---
+  Pos: (-35.363255, 149.166237) Alt: 20.0m | Dist: 112.0m | GS: 3.0 m/s
+  Pos: (-35.363268, 149.166237) Alt: 20.0m | Dist: 110.5m | GS: 0.9 m/s
+  Pos: (-35.363269, 149.166237) Alt: 20.0m | Dist: 110.4m | GS: 0.4 m/s
+  Pos: (-35.363269, 149.166237) Alt: 20.0m | Dist: 110.4m | GS: 0.2 m/s
+  Pos: (-35.363269, 149.166237) Alt: 20.0m | Dist: 110.4m | GS: 0.2 m/s
+  Pos: (-35.363267, 149.166237) Alt: 20.0m | Dist: 110.6m | GS: 0.2 m/s
+  Pos: (-35.363267, 149.166237) Alt: 20.0m | Dist: 110.7m | GS: 0.2 m/s
+  Pos: (-35.363263, 149.166237) Alt: 20.0m | Dist: 111.1m | GS: 0.6 m/s
+  Pos: (-35.363265, 149.166237) Alt: 20.0m | Dist: 110.8m | GS: 1.4 m/s
+  Pos: (-35.363282, 149.166237) Alt: 20.0m | Dist: 109.0m | GS: 3.4 m/s
+  Pos: (-35.363290, 149.166237) Alt: 20.0m | Dist: 108.1m | GS: 4.0 m/s
+  Pos: (-35.363322, 149.166237) Alt: 20.0m | Dist: 104.5m | GS: 5.7 m/s
+  Pos: (-35.363336, 149.166237) Alt: 20.0m | Dist: 103.0m | GS: 6.3 m/s
+  Pos: (-35.363384, 149.166237) Alt: 20.0m | Dist: 97.6m | GS: 7.9 m/s
+  Pos: (-35.363403, 149.166237) Alt: 20.0m | Dist: 95.6m | GS: 8.3 m/s
+  Pos: (-35.363462, 149.166237) Alt: 20.0m | Dist: 88.9m | GS: 9.1 m/s
+  Pos: (-35.363483, 149.166237) Alt: 20.0m | Dist: 86.6m | GS: 9.3 m/s
+  Pos: (-35.363548, 149.166237) Alt: 20.0m | Dist: 79.4m | GS: 9.7 m/s
+  Pos: (-35.363570, 149.166237) Alt: 20.0m | Dist: 76.9m | GS: 9.8 m/s
+  Pos: (-35.363638, 149.166237) Alt: 20.0m | Dist: 69.4m | GS: 10.0 m/s
+  Pos: (-35.363660, 149.166237) Alt: 20.0m | Dist: 66.9m | GS: 10.1 m/s
+  Pos: (-35.363728, 149.166237) Alt: 20.0m | Dist: 59.3m | GS: 10.1 m/s
+  Pos: (-35.363751, 149.166237) Alt: 20.0m | Dist: 56.8m | GS: 10.2 m/s
+  Pos: (-35.363820, 149.166237) Alt: 20.0m | Dist: 49.2m | GS: 10.2 m/s
+  Pos: (-35.363843, 149.166237) Alt: 20.0m | Dist: 46.6m | GS: 10.1 m/s
+  Pos: (-35.363911, 149.166237) Alt: 20.0m | Dist: 39.0m | GS: 10.1 m/s
+  Pos: (-35.363934, 149.166237) Alt: 20.0m | Dist: 36.5m | GS: 10.1 m/s
+  Pos: (-35.364002, 149.166237) Alt: 20.0m | Dist: 29.0m | GS: 10.0 m/s
+  Pos: (-35.364024, 149.166237) Alt: 20.0m | Dist: 26.5m | GS: 10.0 m/s
+  Pos: (-35.364091, 149.166237) Alt: 20.0m | Dist: 19.0m | GS: 9.6 m/s
+  Pos: (-35.364112, 149.166237) Alt: 20.0m | Dist: 16.6m | GS: 9.1 m/s
+  Pos: (-35.364169, 149.166237) Alt: 20.0m | Dist: 10.4m | GS: 7.5 m/s
+  Pos: (-35.364185, 149.166237) Alt: 20.0m | Dist: 8.6m | GS: 6.9 m/s
+  Pos: (-35.364226, 149.166237) Alt: 20.0m | Dist: 4.0m | GS: 5.1 m/s
+  Pos: (-35.364237, 149.166237) Alt: 20.0m | Dist: 2.8m | GS: 4.4 m/s
+  Arrived at WP4 - Southeast
+  Holding at position for 8s...
+
+--- Flying to WP5 - South | lat=-35.364262, lon=149.165237, alt=20m ---
+  Pos: (-35.364260, 149.166237) Alt: 20.0m | Dist: 90.7m | GS: 2.4 m/s
+  Pos: (-35.364264, 149.166237) Alt: 20.0m | Dist: 90.7m | GS: 1.7 m/s
+  Pos: (-35.364269, 149.166237) Alt: 20.0m | Dist: 90.7m | GS: 0.1 m/s
+  Pos: (-35.364269, 149.166237) Alt: 20.0m | Dist: 90.7m | GS: 0.1 m/s
+  Pos: (-35.364268, 149.166237) Alt: 20.0m | Dist: 90.7m | GS: 0.2 m/s
+  Pos: (-35.364268, 149.166237) Alt: 20.0m | Dist: 90.7m | GS: 0.2 m/s
+  Pos: (-35.364262, 149.166237) Alt: 20.0m | Dist: 90.7m | GS: 0.0 m/s
+  Pos: (-35.364262, 149.166237) Alt: 20.0m | Dist: 90.7m | GS: 0.1 m/s
+  Pos: (-35.364262, 149.166230) Alt: 20.0m | Dist: 90.0m | GS: 2.0 m/s
+  Pos: (-35.364262, 149.166224) Alt: 20.0m | Dist: 89.5m | GS: 2.7 m/s
+  Pos: (-35.364262, 149.166195) Alt: 20.0m | Dist: 86.8m | GS: 4.5 m/s
+  Pos: (-35.364262, 149.166182) Alt: 20.0m | Dist: 85.7m | GS: 5.0 m/s
+  Pos: (-35.364262, 149.166133) Alt: 20.0m | Dist: 81.3m | GS: 6.8 m/s
+  Pos: (-35.364262, 149.166114) Alt: 20.0m | Dist: 79.5m | GS: 7.4 m/s
+  Pos: (-35.364262, 149.166048) Alt: 20.0m | Dist: 73.5m | GS: 8.6 m/s
+  Pos: (-35.364262, 149.166024) Alt: 20.0m | Dist: 71.3m | GS: 8.9 m/s
+  Pos: (-35.364262, 149.165947) Alt: 20.0m | Dist: 64.4m | GS: 9.5 m/s
+  Pos: (-35.364262, 149.165921) Alt: 20.0m | Dist: 62.0m | GS: 9.6 m/s
+  Pos: (-35.364262, 149.165840) Alt: 20.0m | Dist: 54.7m | GS: 9.9 m/s
+  Pos: (-35.364262, 149.165813) Alt: 20.0m | Dist: 52.2m | GS: 9.9 m/s
+  Pos: (-35.364262, 149.165729) Alt: 20.0m | Dist: 44.6m | GS: 10.1 m/s
+  Pos: (-35.364262, 149.165702) Alt: 20.0m | Dist: 42.1m | GS: 10.1 m/s
+  Pos: (-35.364262, 149.165618) Alt: 20.0m | Dist: 34.5m | GS: 10.2 m/s
+  Pos: (-35.364262, 149.165590) Alt: 20.0m | Dist: 32.0m | GS: 10.2 m/s
+  Pos: (-35.364262, 149.165562) Alt: 20.0m | Dist: 29.4m | GS: 10.1 m/s
+  Pos: (-35.364262, 149.165478) Alt: 20.0m | Dist: 21.8m | GS: 10.0 m/s
+  Pos: (-35.364262, 149.165400) Alt: 20.0m | Dist: 14.8m | GS: 8.7 m/s
+  Pos: (-35.364262, 149.165376) Alt: 20.0m | Dist: 12.6m | GS: 8.2 m/s
+  Pos: (-35.364262, 149.165355) Alt: 20.0m | Dist: 10.7m | GS: 6.5 m/s
+  Pos: (-35.364262, 149.165299) Alt: 20.0m | Dist: 5.6m | GS: 5.8 m/s
+  Pos: (-35.364262, 149.165283) Alt: 20.0m | Dist: 4.2m | GS: 3.9 m/s
+  Pos: (-35.364262, 149.165248) Alt: 20.0m | Dist: 1.0m | GS: 3.2 m/s
+  Arrived at WP5 - South
+  Holding at position for 8s...
+
+--- Flying to WP6 - Southwest | lat=-35.364262, lon=149.164237, alt=20m ---
+  Pos: (-35.364262, 149.165241) Alt: 20.0m | Dist: 91.0m | GS: 1.1 m/s
+  Pos: (-35.364262, 149.165228) Alt: 20.0m | Dist: 89.9m | GS: 0.5 m/s
+  Pos: (-35.364262, 149.165228) Alt: 20.0m | Dist: 89.8m | GS: 0.2 m/s
+  Pos: (-35.364262, 149.165229) Alt: 20.0m | Dist: 89.9m | GS: 0.2 m/s
+  Pos: (-35.364262, 149.165231) Alt: 20.0m | Dist: 90.1m | GS: 0.2 m/s
+  Pos: (-35.364262, 149.165231) Alt: 20.0m | Dist: 90.1m | GS: 0.2 m/s
+  Pos: (-35.364262, 149.165232) Alt: 20.0m | Dist: 90.2m | GS: 0.0 m/s
+  Pos: (-35.364262, 149.165236) Alt: 20.0m | Dist: 90.6m | GS: 0.0 m/s
+  Pos: (-35.364262, 149.165231) Alt: 20.0m | Dist: 90.1m | GS: 1.7 m/s
+  Pos: (-35.364262, 149.165225) Alt: 20.0m | Dist: 89.6m | GS: 2.4 m/s
+  Pos: (-35.364262, 149.165198) Alt: 20.0m | Dist: 87.1m | GS: 4.2 m/s
+  Pos: (-35.364262, 149.165185) Alt: 20.0m | Dist: 86.0m | GS: 4.8 m/s
+  Pos: (-35.364262, 149.165119) Alt: 20.0m | Dist: 80.0m | GS: 7.2 m/s
+  Pos: (-35.364262, 149.165099) Alt: 20.0m | Dist: 78.1m | GS: 7.7 m/s
+  Pos: (-35.364262, 149.165030) Alt: 20.0m | Dist: 71.9m | GS: 8.8 m/s
+  Pos: (-35.364262, 149.165005) Alt: 20.0m | Dist: 69.7m | GS: 9.0 m/s
+  Pos: (-35.364262, 149.164928) Alt: 20.0m | Dist: 62.7m | GS: 9.6 m/s
+  Pos: (-35.364262, 149.164901) Alt: 20.0m | Dist: 60.2m | GS: 9.7 m/s
+  Pos: (-35.364262, 149.164820) Alt: 20.0m | Dist: 52.8m | GS: 9.9 m/s
+  Pos: (-35.364262, 149.164792) Alt: 20.0m | Dist: 50.3m | GS: 10.0 m/s
+  Pos: (-35.364262, 149.164709) Alt: 20.0m | Dist: 42.8m | GS: 10.1 m/s
+  Pos: (-35.364262, 149.164681) Alt: 20.0m | Dist: 40.2m | GS: 10.1 m/s
+  Pos: (-35.364262, 149.164596) Alt: 20.0m | Dist: 32.6m | GS: 10.1 m/s
+  Pos: (-35.364262, 149.164569) Alt: 20.0m | Dist: 30.1m | GS: 10.1 m/s
+  Pos: (-35.364262, 149.164485) Alt: 20.0m | Dist: 22.5m | GS: 10.1 m/s
+  Pos: (-35.364262, 149.164457) Alt: 20.0m | Dist: 20.0m | GS: 9.8 m/s
+  Pos: (-35.364262, 149.164382) Alt: 20.0m | Dist: 13.1m | GS: 8.3 m/s
+  Pos: (-35.364262, 149.164360) Alt: 20.0m | Dist: 11.1m | GS: 7.7 m/s
+  Pos: (-35.364262, 149.164303) Alt: 20.0m | Dist: 6.0m | GS: 6.0 m/s
+  Pos: (-35.364262, 149.164287) Alt: 20.0m | Dist: 4.5m | GS: 5.4 m/s
+  Pos: (-35.364262, 149.164251) Alt: 20.0m | Dist: 1.3m | GS: 3.4 m/s
+  Arrived at WP6 - Southwest
+  Holding at position for 8s...
+
+--- Flying to WP7 - West | lat=-35.363262, lon=149.164237, alt=20m ---
+  Pos: (-35.364262, 149.164242) Alt: 20.0m | Dist: 111.2m | GS: 2.7 m/s
+  Pos: (-35.364262, 149.164229) Alt: 20.0m | Dist: 111.2m | GS: 0.6 m/s
+  Pos: (-35.364262, 149.164228) Alt: 20.0m | Dist: 111.2m | GS: 0.2 m/s
+  Pos: (-35.364262, 149.164228) Alt: 20.0m | Dist: 111.2m | GS: 0.2 m/s
+  Pos: (-35.364262, 149.164229) Alt: 20.0m | Dist: 111.2m | GS: 0.2 m/s
+  Pos: (-35.364262, 149.164231) Alt: 20.0m | Dist: 111.2m | GS: 0.2 m/s
+  Pos: (-35.364262, 149.164232) Alt: 20.0m | Dist: 111.2m | GS: 0.2 m/s
+  Pos: (-35.364261, 149.164237) Alt: 20.0m | Dist: 111.1m | GS: 0.8 m/s
+  Pos: (-35.364258, 149.164237) Alt: 20.0m | Dist: 110.8m | GS: 1.6 m/s
+  Pos: (-35.364254, 149.164237) Alt: 20.0m | Dist: 110.3m | GS: 3.5 m/s
+  Pos: (-35.364233, 149.164237) Alt: 20.0m | Dist: 107.9m | GS: 4.1 m/s
+  Pos: (-35.364200, 149.164237) Alt: 20.0m | Dist: 104.3m | GS: 5.8 m/s
+  Pos: (-35.364186, 149.164237) Alt: 20.0m | Dist: 102.7m | GS: 6.4 m/s
+  Pos: (-35.364171, 149.164237) Alt: 20.0m | Dist: 101.1m | GS: 8.0 m/s
+  Pos: (-35.364119, 149.164237) Alt: 20.0m | Dist: 95.2m | GS: 8.4 m/s
+  Pos: (-35.364099, 149.164237) Alt: 20.0m | Dist: 93.1m | GS: 9.2 m/s
+  Pos: (-35.364038, 149.164237) Alt: 20.0m | Dist: 86.3m | GS: 9.4 m/s
+  Pos: (-35.364017, 149.164237) Alt: 20.0m | Dist: 83.9m | GS: 9.8 m/s
+  Pos: (-35.363951, 149.164237) Alt: 20.0m | Dist: 76.6m | GS: 9.8 m/s
+  Pos: (-35.363929, 149.164237) Alt: 20.0m | Dist: 74.1m | GS: 10.0 m/s
+  Pos: (-35.363861, 149.164237) Alt: 20.0m | Dist: 66.6m | GS: 10.1 m/s
+  Pos: (-35.363838, 149.164237) Alt: 20.0m | Dist: 64.1m | GS: 10.1 m/s
+  Pos: (-35.363770, 149.164237) Alt: 20.0m | Dist: 56.5m | GS: 10.2 m/s
+  Pos: (-35.363748, 149.164237) Alt: 20.0m | Dist: 54.0m | GS: 10.2 m/s
+  Pos: (-35.363679, 149.164237) Alt: 20.0m | Dist: 46.4m | GS: 10.2 m/s
+  Pos: (-35.363656, 149.164237) Alt: 20.0m | Dist: 43.8m | GS: 10.1 m/s
+  Pos: (-35.363588, 149.164237) Alt: 20.0m | Dist: 36.2m | GS: 10.1 m/s
+  Pos: (-35.363565, 149.164237) Alt: 20.0m | Dist: 33.7m | GS: 10.0 m/s
+  Pos: (-35.363497, 149.164237) Alt: 20.0m | Dist: 26.2m | GS: 10.0 m/s
+  Pos: (-35.363475, 149.164237) Alt: 20.0m | Dist: 23.7m | GS: 9.5 m/s
+  Pos: (-35.363409, 149.164237) Alt: 20.0m | Dist: 16.4m | GS: 9.1 m/s
+  Pos: (-35.363389, 149.164237) Alt: 20.0m | Dist: 14.2m | GS: 7.4 m/s
+  Pos: (-35.363337, 149.164237) Alt: 20.0m | Dist: 8.4m | GS: 6.9 m/s
+  Pos: (-35.363322, 149.164237) Alt: 20.0m | Dist: 6.7m | GS: 5.0 m/s
+  Pos: (-35.363286, 149.164237) Alt: 20.0m | Dist: 2.7m | GS: 4.4 m/s
+  Arrived at WP7 - West
+  Holding at position for 8s...
+
+--- Flying to WP8 - Northwest | lat=-35.362262, lon=149.164237, alt=20m ---
+  Pos: (-35.363277, 149.164237) Alt: 20.0m | Dist: 112.9m | GS: 2.3 m/s
+  Pos: (-35.363259, 149.164237) Alt: 20.0m | Dist: 110.9m | GS: 1.6 m/s
+  Pos: (-35.363256, 149.164237) Alt: 20.0m | Dist: 110.5m | GS: 0.0 m/s
+  Pos: (-35.363254, 149.164237) Alt: 20.0m | Dist: 110.3m | GS: 0.1 m/s
+  Pos: (-35.363255, 149.164237) Alt: 20.0m | Dist: 110.4m | GS: 0.2 m/s
+  Pos: (-35.363256, 149.164237) Alt: 20.0m | Dist: 110.5m | GS: 0.2 m/s
+  Pos: (-35.363257, 149.164237) Alt: 20.0m | Dist: 110.6m | GS: 0.0 m/s
+  Pos: (-35.363262, 149.164237) Alt: 20.0m | Dist: 111.2m | GS: 0.1 m/s
+  Pos: (-35.363255, 149.164237) Alt: 20.0m | Dist: 110.4m | GS: 2.0 m/s
+  Pos: (-35.363250, 149.164237) Alt: 20.0m | Dist: 109.8m | GS: 2.7 m/s
+  Pos: (-35.363226, 149.164237) Alt: 20.0m | Dist: 107.1m | GS: 4.5 m/s
+  Pos: (-35.363215, 149.164237) Alt: 20.0m | Dist: 106.0m | GS: 5.1 m/s
+  Pos: (-35.363175, 149.164237) Alt: 20.0m | Dist: 101.5m | GS: 6.8 m/s
+  Pos: (-35.363159, 149.164237) Alt: 20.0m | Dist: 99.7m | GS: 7.4 m/s
+  Pos: (-35.363104, 149.164237) Alt: 20.0m | Dist: 93.6m | GS: 8.7 m/s
+  Pos: (-35.363084, 149.164237) Alt: 20.0m | Dist: 91.4m | GS: 8.9 m/s
+  Pos: (-35.363022, 149.164237) Alt: 20.0m | Dist: 84.5m | GS: 9.5 m/s
+  Pos: (-35.363000, 149.164237) Alt: 20.0m | Dist: 82.1m | GS: 9.6 m/s
+  Pos: (-35.362934, 149.164237) Alt: 20.0m | Dist: 74.7m | GS: 9.9 m/s
+  Pos: (-35.362911, 149.164237) Alt: 20.0m | Dist: 72.2m | GS: 10.0 m/s
+  Pos: (-35.362843, 149.164237) Alt: 20.0m | Dist: 64.6m | GS: 10.1 m/s
+  Pos: (-35.362820, 149.164237) Alt: 20.0m | Dist: 62.1m | GS: 10.1 m/s
+  Pos: (-35.362752, 149.164237) Alt: 20.0m | Dist: 54.4m | GS: 10.1 m/s
+  Pos: (-35.362729, 149.164237) Alt: 20.0m | Dist: 51.9m | GS: 10.1 m/s
+  Pos: (-35.362661, 149.164237) Alt: 20.0m | Dist: 44.3m | GS: 10.1 m/s
+  Pos: (-35.362638, 149.164237) Alt: 20.0m | Dist: 41.8m | GS: 10.1 m/s
+  Pos: (-35.362570, 149.164237) Alt: 20.0m | Dist: 34.2m | GS: 10.1 m/s
+  Pos: (-35.362547, 149.164237) Alt: 20.0m | Dist: 31.7m | GS: 10.1 m/s
+  Pos: (-35.362479, 149.164237) Alt: 20.0m | Dist: 24.2m | GS: 10.0 m/s
+  Pos: (-35.362457, 149.164237) Alt: 20.0m | Dist: 21.7m | GS: 10.0 m/s
+  Pos: (-35.362394, 149.164237) Alt: 20.0m | Dist: 14.6m | GS: 8.7 m/s
+  Pos: (-35.362375, 149.164237) Alt: 20.0m | Dist: 12.5m | GS: 8.1 m/s
+  Pos: (-35.362325, 149.164237) Alt: 20.0m | Dist: 7.0m | GS: 6.4 m/s
+  Pos: (-35.362312, 149.164237) Alt: 20.0m | Dist: 5.5m | GS: 5.8 m/s
+  Pos: (-35.362279, 149.164237) Alt: 20.0m | Dist: 1.9m | GS: 3.8 m/s
+  Arrived at WP8 - Northwest
+  Holding at position for 8s...
+
+--- Flying to WP9 - High Pass | lat=-35.362262, lon=149.165237, alt=40m ---
+  Pos: (-35.362271, 149.164237) Alt: 20.0m | Dist: 90.7m | GS: 3.1 m/s
+  Pos: (-35.362257, 149.164237) Alt: 20.0m | Dist: 90.7m | GS: 1.1 m/s
+  Pos: (-35.362255, 149.164237) Alt: 20.0m | Dist: 90.7m | GS: 0.5 m/s
+  Pos: (-35.362255, 149.164237) Alt: 20.0m | Dist: 90.7m | GS: 0.2 m/s
+  Pos: (-35.362255, 149.164237) Alt: 20.0m | Dist: 90.7m | GS: 0.2 m/s
+  Pos: (-35.362257, 149.164237) Alt: 20.0m | Dist: 90.7m | GS: 0.2 m/s
+  Pos: (-35.362257, 149.164237) Alt: 20.0m | Dist: 90.7m | GS: 0.2 m/s
+  Pos: (-35.362262, 149.164238) Alt: 20.1m | Dist: 90.6m | GS: 0.5 m/s
+  Pos: (-35.362262, 149.164240) Alt: 20.2m | Dist: 90.4m | GS: 1.3 m/s
+  Pos: (-35.362262, 149.164245) Alt: 20.4m | Dist: 90.0m | GS: 3.3 m/s
+  Pos: (-35.362262, 149.164269) Alt: 21.4m | Dist: 87.8m | GS: 3.9 m/s
+  Pos: (-35.362262, 149.164280) Alt: 21.9m | Dist: 86.8m | GS: 5.5 m/s
+  Pos: (-35.362262, 149.164323) Alt: 23.5m | Dist: 82.9m | GS: 6.1 m/s
+  Pos: (-35.362262, 149.164341) Alt: 24.0m | Dist: 81.3m | GS: 7.9 m/s
+  Pos: (-35.362262, 149.164403) Alt: 25.5m | Dist: 75.6m | GS: 8.5 m/s
+  Pos: (-35.362262, 149.164427) Alt: 25.9m | Dist: 73.5m | GS: 9.4 m/s
+  Pos: (-35.362262, 149.164504) Alt: 27.4m | Dist: 66.5m | GS: 9.6 m/s
+  Pos: (-35.362262, 149.164531) Alt: 27.9m | Dist: 64.1m | GS: 9.9 m/s
+  Pos: (-35.362262, 149.164613) Alt: 29.3m | Dist: 56.6m | GS: 10.0 m/s
+  Pos: (-35.362262, 149.164640) Alt: 29.8m | Dist: 54.1m | GS: 10.2 m/s
+  Pos: (-35.362262, 149.164725) Alt: 31.2m | Dist: 46.4m | GS: 10.2 m/s
+  Pos: (-35.362262, 149.164753) Alt: 31.7m | Dist: 43.9m | GS: 10.2 m/s
+  Pos: (-35.362262, 149.164838) Alt: 33.1m | Dist: 36.2m | GS: 10.2 m/s
+  Pos: (-35.362262, 149.164866) Alt: 33.6m | Dist: 33.6m | GS: 10.1 m/s
+  Pos: (-35.362262, 149.164950) Alt: 35.0m | Dist: 26.0m | GS: 10.1 m/s
+  Pos: (-35.362262, 149.164978) Alt: 35.5m | Dist: 23.5m | GS: 9.5 m/s
+  Pos: (-35.362262, 149.165058) Alt: 37.0m | Dist: 16.2m | GS: 9.0 m/s
+  Pos: (-35.362262, 149.165082) Alt: 37.5m | Dist: 14.1m | GS: 7.3 m/s
+  Pos: (-35.362262, 149.165145) Alt: 38.8m | Dist: 8.4m | GS: 6.8 m/s
+  Pos: (-35.362262, 149.165163) Alt: 39.1m | Dist: 6.7m | GS: 5.0 m/s
+  Pos: (-35.362262, 149.165207) Alt: 39.9m | Dist: 2.8m | GS: 4.4 m/s
+  Arrived at WP9 - High Pass
+  Holding at position for 8s...
+
+--- Flying to WP10 - Low Pass | lat=-35.364262, lon=149.166237, alt=8m ---
+  Pos: (-35.362262, 149.165218) Alt: 40.0m | Dist: 240.8m | GS: 2.3 m/s
+  Pos: (-35.362262, 149.165240) Alt: 40.0m | Dist: 240.0m | GS: 1.6 m/s
+  Pos: (-35.362262, 149.165246) Alt: 40.0m | Dist: 239.8m | GS: 0.0 m/s
+  Pos: (-35.362262, 149.165246) Alt: 40.0m | Dist: 239.9m | GS: 0.1 m/s
+  Pos: (-35.362262, 149.165245) Alt: 40.0m | Dist: 239.9m | GS: 0.2 m/s
+  Pos: (-35.362262, 149.165243) Alt: 40.0m | Dist: 239.9m | GS: 0.2 m/s
+  Pos: (-35.362262, 149.165243) Alt: 40.0m | Dist: 240.0m | GS: 0.1 m/s
+  Pos: (-35.362262, 149.165238) Alt: 39.9m | Dist: 240.1m | GS: 0.3 m/s
+  Pos: (-35.362269, 149.165241) Alt: 39.4m | Dist: 239.2m | GS: 2.3 m/s
+  Pos: (-35.362275, 149.165244) Alt: 39.1m | Dist: 238.6m | GS: 2.9 m/s
+  Pos: (-35.362299, 149.165256) Alt: 38.1m | Dist: 235.7m | GS: 4.9 m/s
+  Pos: (-35.362310, 149.165261) Alt: 37.7m | Dist: 234.4m | GS: 5.5 m/s
+  Pos: (-35.362349, 149.165281) Alt: 36.8m | Dist: 229.7m | GS: 7.1 m/s
+  Pos: (-35.362364, 149.165289) Alt: 36.5m | Dist: 227.9m | GS: 7.6 m/s
+  Pos: (-35.362414, 149.165314) Alt: 35.6m | Dist: 221.9m | GS: 8.5 m/s
+  Pos: (-35.362432, 149.165323) Alt: 35.2m | Dist: 219.7m | GS: 8.7 m/s
+  Pos: (-35.362488, 149.165350) Alt: 34.3m | Dist: 213.0m | GS: 9.1 m/s
+  Pos: (-35.362507, 149.165360) Alt: 34.0m | Dist: 210.7m | GS: 9.2 m/s
+  Pos: (-35.362566, 149.165389) Alt: 33.1m | Dist: 203.7m | GS: 9.4 m/s
+  Pos: (-35.362585, 149.165399) Alt: 32.8m | Dist: 201.4m | GS: 9.5 m/s
+  Pos: (-35.362645, 149.165428) Alt: 31.9m | Dist: 194.2m | GS: 9.6 m/s
+  Pos: (-35.362665, 149.165438) Alt: 31.5m | Dist: 191.8m | GS: 9.6 m/s
+  Pos: (-35.362725, 149.165468) Alt: 30.6m | Dist: 184.6m | GS: 9.6 m/s
+  Pos: (-35.362745, 149.165478) Alt: 30.3m | Dist: 182.2m | GS: 9.6 m/s
+  Pos: (-35.362805, 149.165508) Alt: 29.4m | Dist: 175.0m | GS: 9.7 m/s
+  Pos: (-35.362825, 149.165519) Alt: 29.1m | Dist: 172.5m | GS: 9.7 m/s
+  Pos: (-35.362886, 149.165549) Alt: 28.2m | Dist: 165.2m | GS: 9.7 m/s
+  Pos: (-35.362906, 149.165559) Alt: 27.9m | Dist: 162.8m | GS: 9.7 m/s
+  Pos: (-35.362967, 149.165589) Alt: 27.0m | Dist: 155.5m | GS: 9.7 m/s
+  Pos: (-35.362987, 149.165600) Alt: 26.7m | Dist: 153.1m | GS: 9.7 m/s
+  Pos: (-35.363048, 149.165630) Alt: 25.8m | Dist: 145.8m | GS: 9.7 m/s
+  Pos: (-35.363068, 149.165640) Alt: 25.5m | Dist: 143.4m | GS: 9.7 m/s
+  Pos: (-35.363129, 149.165670) Alt: 24.5m | Dist: 136.1m | GS: 9.7 m/s
+  Pos: (-35.363149, 149.165680) Alt: 24.2m | Dist: 133.7m | GS: 9.7 m/s
+  Pos: (-35.363209, 149.165711) Alt: 23.3m | Dist: 126.4m | GS: 9.7 m/s
+  Pos: (-35.363230, 149.165721) Alt: 23.0m | Dist: 124.0m | GS: 9.7 m/s
+  Pos: (-35.363290, 149.165751) Alt: 22.1m | Dist: 116.7m | GS: 9.7 m/s
+  Pos: (-35.363310, 149.165761) Alt: 21.8m | Dist: 114.3m | GS: 9.7 m/s
+  Pos: (-35.363371, 149.165792) Alt: 20.9m | Dist: 107.0m | GS: 9.7 m/s
+  Pos: (-35.363391, 149.165802) Alt: 20.6m | Dist: 104.6m | GS: 9.7 m/s
+  Pos: (-35.363451, 149.165832) Alt: 19.7m | Dist: 97.3m | GS: 9.7 m/s
+  Pos: (-35.363472, 149.165842) Alt: 19.4m | Dist: 94.9m | GS: 9.7 m/s
+  Pos: (-35.363532, 149.165872) Alt: 18.5m | Dist: 87.6m | GS: 9.7 m/s
+  Pos: (-35.363553, 149.165882) Alt: 18.2m | Dist: 85.2m | GS: 9.7 m/s
+  Pos: (-35.363613, 149.165913) Alt: 17.3m | Dist: 77.9m | GS: 9.7 m/s
+  Pos: (-35.363634, 149.165923) Alt: 17.0m | Dist: 75.5m | GS: 9.7 m/s
+  Pos: (-35.363694, 149.165953) Alt: 16.1m | Dist: 68.2m | GS: 9.7 m/s
+  Pos: (-35.363715, 149.165964) Alt: 15.8m | Dist: 65.7m | GS: 9.7 m/s
+  Pos: (-35.363776, 149.165994) Alt: 14.9m | Dist: 58.4m | GS: 9.7 m/s
+  Pos: (-35.363796, 149.166004) Alt: 14.6m | Dist: 56.0m | GS: 9.7 m/s
+  Pos: (-35.363857, 149.166034) Alt: 13.7m | Dist: 48.7m | GS: 9.7 m/s
+  Pos: (-35.363877, 149.166045) Alt: 13.4m | Dist: 46.2m | GS: 9.7 m/s
+  Pos: (-35.363937, 149.166075) Alt: 12.6m | Dist: 39.0m | GS: 9.7 m/s
+  Pos: (-35.363957, 149.166085) Alt: 12.3m | Dist: 36.6m | GS: 9.7 m/s
+  Pos: (-35.364018, 149.166115) Alt: 11.4m | Dist: 29.3m | GS: 9.7 m/s
+  Pos: (-35.364038, 149.166125) Alt: 11.1m | Dist: 26.8m | GS: 9.7 m/s
+  Pos: (-35.364099, 149.166156) Alt: 10.2m | Dist: 19.6m | GS: 9.5 m/s
+  Pos: (-35.364118, 149.166165) Alt: 10.0m | Dist: 17.3m | GS: 9.1 m/s
+  Pos: (-35.364171, 149.166192) Alt: 9.1m | Dist: 10.9m | GS: 7.7 m/s
+  Pos: (-35.364187, 149.166199) Alt: 8.8m | Dist: 9.0m | GS: 7.1 m/s
+  Pos: (-35.364226, 149.166219) Alt: 8.2m | Dist: 4.3m | GS: 5.3 m/s
+  Pos: (-35.364237, 149.166224) Alt: 8.1m | Dist: 3.1m | GS: 4.6 m/s
+  Pos: (-35.364259, 149.166235) Alt: 8.0m | Dist: 0.3m | GS: 2.5 m/s
+  Arrived at WP10 - Low Pass
+  Holding at position for 8s...
+
+=== Pattern complete: 10/10 waypoints reached ===
+
+--- Returning to launch ---
+Mode command sent: RTL
+Mode confirmed: RTL
+  Altitude: 8.1m  Altitude: 8.3m  Altitude: 8.4m  Altitude: 8.7m  Altitude: 9.0m  Altitude: 9.4m  Altitude: 9.8m  Altitude: 10.3m  Altitude: 10.8m  Altitude: 11.3m  Altitude: 11.8m  Altitude: 12.3m  Altitude: 12.8m  Altitude: 13.3m  Altitude: 13.7m  Altitude: 14.1m  Altitude: 14.4m  Altitude: 14.6m  Altitude: 14.8m  Altitude: 14.9m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 14.9m  Altitude: 14.7m  Altitude: 14.5m  Altitude: 14.2m  Altitude: 13.9m  Altitude: 13.5m  Altitude: 13.1m  Altitude: 12.7m  Altitude: 12.3m  Altitude: 11.9m  Altitude: 11.5m  Altitude: 11.2m  Altitude: 10.9m  Altitude: 10.6m  Altitude: 10.4m  Altitude: 10.3m  Altitude: 10.2m  Altitude: 10.1m  Altitude: 10.0m  Altitude: 9.9m  Altitude: 9.7m  Altitude: 9.6m  Altitude: 9.5m  Altitude: 9.4m  Altitude: 9.2m  Altitude: 9.1m  Altitude: 9.0m  Altitude: 8.8m  Altitude: 8.7m  Altitude: 8.6m  Altitude: 8.5m  Altitude: 8.3m  Altitude: 8.2m  Altitude: 8.1m  Altitude: 8.0m  Altitude: 7.8m  Altitude: 7.7m  Altitude: 7.6m  Altitude: 7.5m  Altitude: 7.3m  Altitude: 7.2m  Altitude: 7.1m  Altitude: 7.0m  Altitude: 6.8m  Altitude: 6.7m  Altitude: 6.6m  Altitude: 6.5m  Altitude: 6.3m  Altitude: 6.2m  Altitude: 6.1m  Altitude: 6.0m  Altitude: 5.8m  Altitude: 5.7m  Altitude: 5.6m  Altitude: 5.5m  Altitude: 5.3m  Altitude: 5.2m  Altitude: 5.1m  Altitude: 5.0m  Altitude: 4.8m  Altitude: 4.7m  Altitude: 4.6m  Altitude: 4.5m  Altitude: 4.3m  Altitude: 4.2m  Altitude: 4.1m  Altitude: 4.0m  Altitude: 3.8m  Altitude: 3.7m  Altitude: 3.6m  Altitude: 3.5m  Altitude: 3.3m  Altitude: 3.2m  Altitude: 3.1m  Altitude: 3.0m  Altitude: 2.8m  Altitude: 2.7m  Altitude: 2.6m  Altitude: 2.5m  Altitude: 2.3m  Altitude: 2.2m  Altitude: 2.1m  Altitude: 2.0m  Altitude: 1.8m  Altitude: 1.7m  Altitude: 1.6m  Altitude: 1.5m  Altitude: 1.3m  Altitude: 1.2m  Altitude: 1.1m  Altitude: 1.0m  Altitude: 0.8m  Altitude: 0.7m  Altitude: 0.6m  Altitude: 0.5m
+Vehicle landed at home
+
+Mission complete

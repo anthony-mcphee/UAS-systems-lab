@@ -1,0 +1,295 @@
+Connecting to MAVLink stream on udpin:127.0.0.1:14551
+Waiting for heartbeat...
+Heartbeat received — System ID: 1, Component ID: 0
+Mode command sent: GUIDED, waiting for confirmation...
+Mode confirmed: GUIDED
+Arming vehicle...
+Vehicle armed
+Sending takeoff command to 10m...
+ACK received: command 22 ACCEPTED
+Climbing to 10m, waiting...
+  Altitude: 0.0m  Altitude: 0.0m  Altitude: 0.0m  Altitude: 0.0m  Altitude: 0.0m  Altitude: 0.0m  Altitude: 0.0m  Altitude: 0.1m  Altitude: 0.2m  Altitude: 0.4m  Altitude: 0.7m  Altitude: 1.0m  Altitude: 1.4m  Altitude: 1.9m  Altitude: 2.4m  Altitude: 2.9m  Altitude: 3.6m  Altitude: 4.2m  Altitude: 4.8m  Altitude: 5.5m  Altitude: 6.1m  Altitude: 6.7m  Altitude: 7.3m  Altitude: 7.9m  Altitude: 8.4m  Altitude: 8.8m  Altitude: 9.2m
+Target altitude reached: 9.2m
+[NORTH] Commanding velocity: vx=2, vy=0, vz=0 m/s for 5s
+  CMD: (+2.0, +0.0, +0.0) | ACT: (-0.0, +0.0, -1.3) m/s
+  CMD: (+2.0, +0.0, +0.0) | ACT: (-0.0, +0.0, -1.0) m/s
+  CMD: (+2.0, +0.0, +0.0) | ACT: (+0.1, +0.0, -0.8) m/s
+  CMD: (+2.0, +0.0, +0.0) | ACT: (+0.5, -0.0, -0.5) m/s
+  CMD: (+2.0, +0.0, +0.0) | ACT: (+1.1, -0.0, -0.3) m/s
+  CMD: (+2.0, +0.0, +0.0) | ACT: (+1.6, -0.0, -0.1) m/s
+  CMD: (+2.0, +0.0, +0.0) | ACT: (+1.9, +0.0, +0.0) m/s
+  CMD: (+2.0, +0.0, +0.0) | ACT: (+2.0, +0.0, +0.0) m/s
+  CMD: (+2.0, +0.0, +0.0) | ACT: (+2.0, +0.0, +0.0) m/s
+  CMD: (+2.0, +0.0, +0.0) | ACT: (+2.0, +0.0, -0.0) m/s
+  CMD: (+2.0, +0.0, +0.0) | ACT: (+2.0, +0.0, -0.0) m/s
+  CMD: (+2.0, +0.0, +0.0) | ACT: (+2.0, +0.0, -0.0) m/s
+  CMD: (+2.0, +0.0, +0.0) | ACT: (+2.0, +0.0, -0.1) m/s
+  CMD: (+2.0, +0.0, +0.0) | ACT: (+2.0, -0.0, -0.1) m/s
+  CMD: (+2.0, +0.0, +0.0) | ACT: (+2.0, -0.0, -0.0) m/s
+  CMD: (+2.0, +0.0, +0.0) | ACT: (+2.0, -0.0, -0.0) m/s
+  CMD: (+2.0, +0.0, +0.0) | ACT: (+2.0, +0.0, -0.0) m/s
+  CMD: (+2.0, +0.0, +0.0) | ACT: (+2.0, +0.0, -0.0) m/s
+  CMD: (+2.0, +0.0, +0.0) | ACT: (+2.0, +0.0, -0.0) m/s
+  CMD: (+2.0, +0.0, +0.0) | ACT: (+2.0, +0.0, -0.0) m/s
+  CMD: (+2.0, +0.0, +0.0) | ACT: (+2.0, +0.0, -0.0) m/s
+Stopping vehicle...
+[STOP] Commanding velocity: vx=0, vy=0, vz=0 m/s for 3s
+  CMD: (+0.0, +0.0, +0.0) | ACT: (+2.0, +0.0, -0.0) m/s
+  CMD: (+0.0, +0.0, +0.0) | ACT: (+1.9, +0.0, -0.0) m/s
+  CMD: (+0.0, +0.0, +0.0) | ACT: (+1.6, +0.0, -0.0) m/s
+  CMD: (+0.0, +0.0, +0.0) | ACT: (+0.9, +0.0, -0.0) m/s
+  CMD: (+0.0, +0.0, +0.0) | ACT: (+0.4, +0.0, -0.0) m/s
+  CMD: (+0.0, +0.0, +0.0) | ACT: (+0.2, +0.0, -0.0) m/s
+  CMD: (+0.0, +0.0, +0.0) | ACT: (+0.1, +0.0, -0.0) m/s
+  CMD: (+0.0, +0.0, +0.0) | ACT: (+0.1, +0.0, -0.0) m/s
+  CMD: (+0.0, +0.0, +0.0) | ACT: (+0.1, +0.0, -0.0) m/s
+  CMD: (+0.0, +0.0, +0.0) | ACT: (+0.1, +0.0, -0.0) m/s
+  CMD: (+0.0, +0.0, +0.0) | ACT: (+0.1, +0.0, -0.0) m/s
+  CMD: (+0.0, +0.0, +0.0) | ACT: (+0.1, +0.0, -0.0) m/s
+[EAST] Commanding velocity: vx=0, vy=2, vz=0 m/s for 5s
+  CMD: (+0.0, +2.0, +0.0) | ACT: (+0.0, -0.0, -0.0) m/s
+  CMD: (+0.0, +2.0, +0.0) | ACT: (+0.0, +0.0, -0.0) m/s
+  CMD: (+0.0, +2.0, +0.0) | ACT: (+0.0, +0.3, +0.0) m/s
+  CMD: (+0.0, +2.0, +0.0) | ACT: (-0.0, +1.0, +0.0) m/s
+  CMD: (+0.0, +2.0, +0.0) | ACT: (-0.0, +1.5, -0.0) m/s
+  CMD: (+0.0, +2.0, +0.0) | ACT: (+0.0, +1.8, -0.0) m/s
+  CMD: (+0.0, +2.0, +0.0) | ACT: (+0.0, +1.9, -0.0) m/s
+  CMD: (+0.0, +2.0, +0.0) | ACT: (+0.0, +1.9, +0.0) m/s
+  CMD: (+0.0, +2.0, +0.0) | ACT: (+0.0, +1.9, +0.0) m/s
+  CMD: (+0.0, +2.0, +0.0) | ACT: (+0.0, +1.9, +0.0) m/s
+  CMD: (+0.0, +2.0, +0.0) | ACT: (+0.0, +1.9, +0.0) m/s
+  CMD: (+0.0, +2.0, +0.0) | ACT: (+0.0, +1.9, -0.0) m/s
+  CMD: (+0.0, +2.0, +0.0) | ACT: (+0.0, +1.9, -0.0) m/s
+  CMD: (+0.0, +2.0, +0.0) | ACT: (+0.0, +1.9, -0.0) m/s
+  CMD: (+0.0, +2.0, +0.0) | ACT: (+0.0, +2.0, -0.0) m/s
+  CMD: (+0.0, +2.0, +0.0) | ACT: (+0.0, +2.0, -0.0) m/s
+  CMD: (+0.0, +2.0, +0.0) | ACT: (+0.0, +2.0, -0.0) m/s
+  CMD: (+0.0, +2.0, +0.0) | ACT: (+0.0, +2.0, -0.0) m/s
+  CMD: (+0.0, +2.0, +0.0) | ACT: (+0.0, +2.0, -0.0) m/s
+  CMD: (+0.0, +2.0, +0.0) | ACT: (+0.0, +2.0, +0.0) m/s
+Stopping vehicle...
+[STOP] Commanding velocity: vx=0, vy=0, vz=0 m/s for 3s
+  CMD: (+0.0, +0.0, +0.0) | ACT: (+0.0, +2.0, +0.0) m/s
+  CMD: (+0.0, +0.0, +0.0) | ACT: (+0.0, +2.0, +0.0) m/s
+  CMD: (+0.0, +0.0, +0.0) | ACT: (+0.0, +1.8, +0.0) m/s
+  CMD: (+0.0, +0.0, +0.0) | ACT: (+0.0, +1.2, +0.0) m/s
+  CMD: (+0.0, +0.0, +0.0) | ACT: (+0.0, +0.6, -0.0) m/s
+  CMD: (+0.0, +0.0, +0.0) | ACT: (+0.0, +0.2, -0.0) m/s
+  CMD: (+0.0, +0.0, +0.0) | ACT: (+0.0, +0.1, -0.0) m/s
+  CMD: (+0.0, +0.0, +0.0) | ACT: (+0.0, +0.1, +0.0) m/s
+  CMD: (+0.0, +0.0, +0.0) | ACT: (+0.0, +0.1, +0.0) m/s
+  CMD: (+0.0, +0.0, +0.0) | ACT: (+0.0, +0.1, +0.0) m/s
+  CMD: (+0.0, +0.0, +0.0) | ACT: (+0.0, +0.1, +0.0) m/s
+  CMD: (+0.0, +0.0, +0.0) | ACT: (+0.0, +0.1, +0.0) m/s
+[SOUTH] Commanding velocity: vx=-2, vy=0, vz=0 m/s for 5s
+  CMD: (-2.0, +0.0, +0.0) | ACT: (+0.0, +0.1, +0.0) m/s
+  CMD: (-2.0, +0.0, +0.0) | ACT: (-0.0, +0.0, +0.0) m/s
+  CMD: (-2.0, +0.0, +0.0) | ACT: (-0.2, +0.0, +0.0) m/s
+  CMD: (-2.0, +0.0, +0.0) | ACT: (-0.7, -0.0, +0.0) m/s
+  CMD: (-2.0, +0.0, +0.0) | ACT: (-1.4, -0.0, -0.0) m/s
+  CMD: (-2.0, +0.0, +0.0) | ACT: (-1.8, +0.0, -0.0) m/s
+  CMD: (-2.0, +0.0, +0.0) | ACT: (-1.9, +0.0, -0.0) m/s
+  CMD: (-2.0, +0.0, +0.0) | ACT: (-2.0, +0.0, +0.0) m/s
+  CMD: (-2.0, +0.0, +0.0) | ACT: (-2.0, -0.0, +0.0) m/s
+  CMD: (-2.0, +0.0, +0.0) | ACT: (-1.9, -0.0, +0.0) m/s
+  CMD: (-2.0, +0.0, +0.0) | ACT: (-1.9, +0.0, +0.0) m/s
+  CMD: (-2.0, +0.0, +0.0) | ACT: (-1.9, +0.0, -0.0) m/s
+  CMD: (-2.0, +0.0, +0.0) | ACT: (-1.9, +0.0, -0.0) m/s
+  CMD: (-2.0, +0.0, +0.0) | ACT: (-1.9, +0.0, -0.0) m/s
+  CMD: (-2.0, +0.0, +0.0) | ACT: (-2.0, +0.0, -0.0) m/s
+  CMD: (-2.0, +0.0, +0.0) | ACT: (-2.0, +0.0, -0.0) m/s
+  CMD: (-2.0, +0.0, +0.0) | ACT: (-2.0, +0.0, -0.0) m/s
+  CMD: (-2.0, +0.0, +0.0) | ACT: (-2.0, +0.0, -0.0) m/s
+  CMD: (-2.0, +0.0, +0.0) | ACT: (-2.0, +0.0, -0.0) m/s
+  CMD: (-2.0, +0.0, +0.0) | ACT: (-2.0, +0.0, -0.0) m/s
+Stopping vehicle...
+[STOP] Commanding velocity: vx=0, vy=0, vz=0 m/s for 3s
+  CMD: (+0.0, +0.0, +0.0) | ACT: (-2.0, +0.0, -0.0) m/s
+  CMD: (+0.0, +0.0, +0.0) | ACT: (-2.0, +0.0, -0.0) m/s
+  CMD: (+0.0, +0.0, +0.0) | ACT: (-1.9, +0.0, -0.0) m/s
+  CMD: (+0.0, +0.0, +0.0) | ACT: (-1.4, +0.0, +0.0) m/s
+  CMD: (+0.0, +0.0, +0.0) | ACT: (-0.7, +0.0, -0.0) m/s
+  CMD: (+0.0, +0.0, +0.0) | ACT: (-0.3, +0.0, -0.0) m/s
+  CMD: (+0.0, +0.0, +0.0) | ACT: (-0.1, +0.0, -0.0) m/s
+  CMD: (+0.0, +0.0, +0.0) | ACT: (-0.1, +0.0, +0.0) m/s
+  CMD: (+0.0, +0.0, +0.0) | ACT: (-0.1, +0.0, +0.0) m/s
+  CMD: (+0.0, +0.0, +0.0) | ACT: (-0.1, +0.0, +0.0) m/s
+  CMD: (+0.0, +0.0, +0.0) | ACT: (-0.1, +0.0, +0.0) m/s
+  CMD: (+0.0, +0.0, +0.0) | ACT: (-0.1, +0.0, -0.0) m/s
+  CMD: (+0.0, +0.0, +0.0) | ACT: (-0.1, +0.0, -0.0) m/s
+[WEST] Commanding velocity: vx=0, vy=-2, vz=0 m/s for 5s
+  CMD: (+0.0, -2.0, +0.0) | ACT: (-0.0, -0.0, -0.0) m/s
+  CMD: (+0.0, -2.0, +0.0) | ACT: (-0.0, -0.1, -0.0) m/s
+  CMD: (+0.0, -2.0, +0.0) | ACT: (+0.0, -0.5, +0.0) m/s
+  CMD: (+0.0, -2.0, +0.0) | ACT: (+0.0, -1.2, -0.0) m/s
+  CMD: (+0.0, -2.0, +0.0) | ACT: (+0.0, -1.7, -0.0) m/s
+  CMD: (+0.0, -2.0, +0.0) | ACT: (-0.0, -1.9, -0.0) m/s
+  CMD: (+0.0, -2.0, +0.0) | ACT: (-0.0, -1.9, -0.0) m/s
+  CMD: (+0.0, -2.0, +0.0) | ACT: (+0.0, -2.0, +0.0) m/s
+  CMD: (+0.0, -2.0, +0.0) | ACT: (+0.0, -1.9, +0.0) m/s
+  CMD: (+0.0, -2.0, +0.0) | ACT: (-0.0, -1.9, -0.0) m/s
+  CMD: (+0.0, -2.0, +0.0) | ACT: (-0.0, -1.9, -0.0) m/s
+  CMD: (+0.0, -2.0, +0.0) | ACT: (-0.0, -1.9, -0.0) m/s
+  CMD: (+0.0, -2.0, +0.0) | ACT: (-0.0, -1.9, -0.0) m/s
+  CMD: (+0.0, -2.0, +0.0) | ACT: (-0.0, -2.0, -0.0) m/s
+  CMD: (+0.0, -2.0, +0.0) | ACT: (-0.0, -2.0, -0.0) m/s
+  CMD: (+0.0, -2.0, +0.0) | ACT: (-0.0, -2.0, -0.0) m/s
+  CMD: (+0.0, -2.0, +0.0) | ACT: (-0.0, -2.0, -0.0) m/s
+  CMD: (+0.0, -2.0, +0.0) | ACT: (-0.0, -2.0, -0.0) m/s
+  CMD: (+0.0, -2.0, +0.0) | ACT: (-0.0, -2.0, -0.0) m/s
+  CMD: (+0.0, -2.0, +0.0) | ACT: (-0.0, -2.0, -0.0) m/s
+Stopping vehicle...
+[STOP] Commanding velocity: vx=0, vy=0, vz=0 m/s for 3s
+  CMD: (+0.0, +0.0, +0.0) | ACT: (-0.0, -2.0, -0.0) m/s
+  CMD: (+0.0, +0.0, +0.0) | ACT: (-0.0, -2.0, -0.0) m/s
+  CMD: (+0.0, +0.0, +0.0) | ACT: (-0.0, -1.6, +0.0) m/s
+  CMD: (+0.0, +0.0, +0.0) | ACT: (-0.0, -1.0, +0.0) m/s
+  CMD: (+0.0, +0.0, +0.0) | ACT: (-0.0, -0.4, -0.0) m/s
+  CMD: (+0.0, +0.0, +0.0) | ACT: (-0.0, -0.2, -0.0) m/s
+  CMD: (+0.0, +0.0, +0.0) | ACT: (-0.0, -0.1, -0.0) m/s
+  CMD: (+0.0, +0.0, +0.0) | ACT: (-0.0, -0.1, +0.0) m/s
+  CMD: (+0.0, +0.0, +0.0) | ACT: (-0.0, -0.1, +0.0) m/s
+  CMD: (+0.0, +0.0, +0.0) | ACT: (+0.0, -0.1, +0.0) m/s
+  CMD: (+0.0, +0.0, +0.0) | ACT: (+0.0, -0.1, -0.0) m/s
+  CMD: (+0.0, +0.0, +0.0) | ACT: (+0.0, -0.1, -0.0) m/s
+[UP] Commanding velocity: vx=0, vy=0, vz=-1 m/s for 4s
+  CMD: (+0.0, +0.0, -1.0) | ACT: (+0.0, -0.0, -0.0) m/s
+  CMD: (+0.0, +0.0, -1.0) | ACT: (+0.0, -0.0, -0.1) m/s
+  CMD: (+0.0, +0.0, -1.0) | ACT: (-0.0, -0.0, -0.3) m/s
+  CMD: (+0.0, +0.0, -1.0) | ACT: (-0.0, -0.0, -0.6) m/s
+  CMD: (+0.0, +0.0, -1.0) | ACT: (-0.0, -0.0, -0.9) m/s
+  CMD: (+0.0, +0.0, -1.0) | ACT: (-0.0, -0.0, -1.0) m/s
+  CMD: (+0.0, +0.0, -1.0) | ACT: (-0.0, -0.0, -1.1) m/s
+  CMD: (+0.0, +0.0, -1.0) | ACT: (-0.0, +0.0, -1.1) m/s
+  CMD: (+0.0, +0.0, -1.0) | ACT: (-0.0, +0.0, -1.0) m/s
+  CMD: (+0.0, +0.0, -1.0) | ACT: (-0.0, +0.0, -1.0) m/s
+  CMD: (+0.0, +0.0, -1.0) | ACT: (-0.0, -0.0, -1.0) m/s
+  CMD: (+0.0, +0.0, -1.0) | ACT: (-0.0, -0.0, -1.0) m/s
+  CMD: (+0.0, +0.0, -1.0) | ACT: (-0.0, -0.0, -1.0) m/s
+  CMD: (+0.0, +0.0, -1.0) | ACT: (-0.0, -0.0, -1.0) m/s
+  CMD: (+0.0, +0.0, -1.0) | ACT: (-0.0, -0.0, -1.0) m/s
+  CMD: (+0.0, +0.0, -1.0) | ACT: (-0.0, -0.0, -1.0) m/s
+Stopping vehicle...
+[STOP] Commanding velocity: vx=0, vy=0, vz=0 m/s for 3s
+  CMD: (+0.0, +0.0, +0.0) | ACT: (-0.0, -0.0, -1.0) m/s
+  CMD: (+0.0, +0.0, +0.0) | ACT: (-0.0, -0.0, -0.9) m/s
+  CMD: (+0.0, +0.0, +0.0) | ACT: (-0.0, -0.0, -0.7) m/s
+  CMD: (+0.0, +0.0, +0.0) | ACT: (-0.0, -0.0, -0.4) m/s
+  CMD: (+0.0, +0.0, +0.0) | ACT: (-0.0, -0.0, -0.2) m/s
+  CMD: (+0.0, +0.0, +0.0) | ACT: (-0.0, -0.0, +0.0) m/s
+  CMD: (+0.0, +0.0, +0.0) | ACT: (-0.0, -0.0, +0.1) m/s
+  CMD: (+0.0, +0.0, +0.0) | ACT: (-0.0, -0.0, +0.1) m/s
+  CMD: (+0.0, +0.0, +0.0) | ACT: (-0.0, -0.0, +0.0) m/s
+  CMD: (+0.0, +0.0, +0.0) | ACT: (-0.0, -0.0, +0.0) m/s
+  CMD: (+0.0, +0.0, +0.0) | ACT: (-0.0, -0.0, -0.0) m/s
+  CMD: (+0.0, +0.0, +0.0) | ACT: (-0.0, -0.0, -0.0) m/s
+[DOWN] Commanding velocity: vx=0, vy=0, vz=1 m/s for 4s
+  CMD: (+0.0, +0.0, +1.0) | ACT: (-0.0, -0.0, -0.0) m/s
+  CMD: (+0.0, +0.0, +1.0) | ACT: (-0.0, -0.0, +0.0) m/s
+  CMD: (+0.0, +0.0, +1.0) | ACT: (-0.0, -0.0, +0.2) m/s
+  CMD: (+0.0, +0.0, +1.0) | ACT: (-0.0, -0.0, +0.5) m/s
+  CMD: (+0.0, +0.0, +1.0) | ACT: (-0.0, -0.0, +0.8) m/s
+  CMD: (+0.0, +0.0, +1.0) | ACT: (-0.0, -0.0, +1.0) m/s
+  CMD: (+0.0, +0.0, +1.0) | ACT: (-0.0, -0.0, +1.1) m/s
+  CMD: (+0.0, +0.0, +1.0) | ACT: (-0.0, -0.0, +1.1) m/s
+  CMD: (+0.0, +0.0, +1.0) | ACT: (-0.0, -0.0, +1.0) m/s
+  CMD: (+0.0, +0.0, +1.0) | ACT: (-0.0, -0.0, +1.0) m/s
+  CMD: (+0.0, +0.0, +1.0) | ACT: (-0.0, -0.0, +1.0) m/s
+  CMD: (+0.0, +0.0, +1.0) | ACT: (-0.0, -0.0, +1.0) m/s
+  CMD: (+0.0, +0.0, +1.0) | ACT: (-0.0, -0.0, +1.0) m/s
+  CMD: (+0.0, +0.0, +1.0) | ACT: (-0.0, -0.0, +1.0) m/s
+  CMD: (+0.0, +0.0, +1.0) | ACT: (-0.0, -0.0, +1.0) m/s
+  CMD: (+0.0, +0.0, +1.0) | ACT: (-0.0, -0.0, +1.0) m/s
+  CMD: (+0.0, +0.0, +1.0) | ACT: (-0.0, -0.0, +1.0) m/s
+Stopping vehicle...
+[STOP] Commanding velocity: vx=0, vy=0, vz=0 m/s for 3s
+  CMD: (+0.0, +0.0, +0.0) | ACT: (-0.0, -0.0, +1.0) m/s
+  CMD: (+0.0, +0.0, +0.0) | ACT: (-0.0, -0.0, +0.8) m/s
+  CMD: (+0.0, +0.0, +0.0) | ACT: (-0.0, -0.0, +0.5) m/s
+  CMD: (+0.0, +0.0, +0.0) | ACT: (-0.0, -0.0, +0.3) m/s
+  CMD: (+0.0, +0.0, +0.0) | ACT: (-0.0, -0.0, +0.0) m/s
+  CMD: (+0.0, +0.0, +0.0) | ACT: (-0.0, -0.0, -0.1) m/s
+  CMD: (+0.0, +0.0, +0.0) | ACT: (-0.0, -0.0, -0.1) m/s
+  CMD: (+0.0, +0.0, +0.0) | ACT: (-0.0, -0.0, -0.1) m/s
+  CMD: (+0.0, +0.0, +0.0) | ACT: (-0.0, -0.0, -0.0) m/s
+  CMD: (+0.0, +0.0, +0.0) | ACT: (-0.0, -0.0, -0.0) m/s
+  CMD: (+0.0, +0.0, +0.0) | ACT: (-0.0, -0.0, +0.0) m/s
+  CMD: (+0.0, +0.0, +0.0) | ACT: (-0.0, -0.0, +0.0) m/s
+[NE DIAGONAL] Commanding velocity: vx=2, vy=2, vz=0 m/s for 5s
+  CMD: (+2.0, +2.0, +0.0) | ACT: (-0.0, -0.0, +0.0) m/s
+  CMD: (+2.0, +2.0, +0.0) | ACT: (+0.0, +0.1, +0.0) m/s
+  CMD: (+2.0, +2.0, +0.0) | ACT: (+0.4, +0.4, +0.0) m/s
+  CMD: (+2.0, +2.0, +0.0) | ACT: (+0.9, +0.9, +0.0) m/s
+  CMD: (+2.0, +2.0, +0.0) | ACT: (+1.4, +1.4, +0.0) m/s
+  CMD: (+2.0, +2.0, +0.0) | ACT: (+1.7, +1.7, -0.0) m/s
+  CMD: (+2.0, +2.0, +0.0) | ACT: (+1.9, +1.9, +0.0) m/s
+  CMD: (+2.0, +2.0, +0.0) | ACT: (+1.9, +1.9, +0.0) m/s
+  CMD: (+2.0, +2.0, +0.0) | ACT: (+2.0, +1.9, +0.0) m/s
+  CMD: (+2.0, +2.0, +0.0) | ACT: (+1.9, +1.9, +0.0) m/s
+  CMD: (+2.0, +2.0, +0.0) | ACT: (+1.9, +1.9, +0.0) m/s
+  CMD: (+2.0, +2.0, +0.0) | ACT: (+1.9, +1.9, +0.0) m/s
+  CMD: (+2.0, +2.0, +0.0) | ACT: (+2.0, +1.9, +0.0) m/s
+  CMD: (+2.0, +2.0, +0.0) | ACT: (+2.0, +1.9, +0.0) m/s
+  CMD: (+2.0, +2.0, +0.0) | ACT: (+2.0, +2.0, +0.0) m/s
+  CMD: (+2.0, +2.0, +0.0) | ACT: (+2.0, +2.0, +0.0) m/s
+  CMD: (+2.0, +2.0, +0.0) | ACT: (+2.0, +2.0, +0.0) m/s
+  CMD: (+2.0, +2.0, +0.0) | ACT: (+2.0, +2.0, +0.0) m/s
+  CMD: (+2.0, +2.0, +0.0) | ACT: (+2.0, +2.0, +0.0) m/s
+  CMD: (+2.0, +2.0, +0.0) | ACT: (+2.0, +2.0, +0.0) m/s
+Stopping vehicle...
+[STOP] Commanding velocity: vx=0, vy=0, vz=0 m/s for 3s
+  CMD: (+0.0, +0.0, +0.0) | ACT: (+2.0, +2.0, +0.0) m/s
+  CMD: (+0.0, +0.0, +0.0) | ACT: (+2.0, +2.0, +0.0) m/s
+  CMD: (+0.0, +0.0, +0.0) | ACT: (+1.7, +1.7, +0.0) m/s
+  CMD: (+0.0, +0.0, +0.0) | ACT: (+1.3, +1.3, +0.0) m/s
+  CMD: (+0.0, +0.0, +0.0) | ACT: (+0.7, +0.7, -0.0) m/s
+  CMD: (+0.0, +0.0, +0.0) | ACT: (+0.4, +0.4, -0.0) m/s
+  CMD: (+0.0, +0.0, +0.0) | ACT: (+0.2, +0.2, -0.0) m/s
+  CMD: (+0.0, +0.0, +0.0) | ACT: (+0.1, +0.1, +0.0) m/s
+  CMD: (+0.0, +0.0, +0.0) | ACT: (+0.1, +0.1, +0.0) m/s
+  CMD: (+0.0, +0.0, +0.0) | ACT: (+0.1, +0.1, +0.0) m/s
+  CMD: (+0.0, +0.0, +0.0) | ACT: (+0.0, +0.1, +0.0) m/s
+  CMD: (+0.0, +0.0, +0.0) | ACT: (+0.0, +0.1, +0.0) m/s
+[3D COMBINED] Commanding velocity: vx=2, vy=1, vz=-0.5 m/s for 5s
+  CMD: (+2.0, +1.0, -0.5) | ACT: (+0.0, +0.1, -0.0) m/s
+  CMD: (+2.0, +1.0, -0.5) | ACT: (+0.1, +0.1, -0.1) m/s
+  CMD: (+2.0, +1.0, -0.5) | ACT: (+0.4, +0.2, -0.3) m/s
+  CMD: (+2.0, +1.0, -0.5) | ACT: (+1.0, +0.5, -0.5) m/s
+  CMD: (+2.0, +1.0, -0.5) | ACT: (+1.5, +0.8, -0.6) m/s
+  CMD: (+2.0, +1.0, -0.5) | ACT: (+1.8, +0.9, -0.6) m/s
+  CMD: (+2.0, +1.0, -0.5) | ACT: (+1.9, +0.9, -0.5) m/s
+  CMD: (+2.0, +1.0, -0.5) | ACT: (+1.9, +0.9, -0.5) m/s
+  CMD: (+2.0, +1.0, -0.5) | ACT: (+1.9, +0.9, -0.5) m/s
+  CMD: (+2.0, +1.0, -0.5) | ACT: (+1.9, +0.9, -0.5) m/s
+  CMD: (+2.0, +1.0, -0.5) | ACT: (+1.9, +0.9, -0.5) m/s
+  CMD: (+2.0, +1.0, -0.5) | ACT: (+2.0, +0.9, -0.5) m/s
+  CMD: (+2.0, +1.0, -0.5) | ACT: (+2.0, +0.9, -0.5) m/s
+  CMD: (+2.0, +1.0, -0.5) | ACT: (+2.0, +1.0, -0.5) m/s
+  CMD: (+2.0, +1.0, -0.5) | ACT: (+2.0, +1.0, -0.5) m/s
+  CMD: (+2.0, +1.0, -0.5) | ACT: (+2.0, +1.0, -0.5) m/s
+  CMD: (+2.0, +1.0, -0.5) | ACT: (+2.0, +1.0, -0.5) m/s
+  CMD: (+2.0, +1.0, -0.5) | ACT: (+2.1, +1.0, -0.5) m/s
+  CMD: (+2.0, +1.0, -0.5) | ACT: (+2.1, +1.0, -0.5) m/s
+  CMD: (+2.0, +1.0, -0.5) | ACT: (+2.1, +1.0, -0.5) m/s
+Stopping vehicle...
+[STOP] Commanding velocity: vx=0, vy=0, vz=0 m/s for 3s
+  CMD: (+0.0, +0.0, +0.0) | ACT: (+2.1, +1.0, -0.5) m/s
+  CMD: (+0.0, +0.0, +0.0) | ACT: (+2.0, +1.0, -0.4) m/s
+  CMD: (+0.0, +0.0, +0.0) | ACT: (+1.8, +0.9, -0.2) m/s
+  CMD: (+0.0, +0.0, +0.0) | ACT: (+1.3, +0.6, -0.0) m/s
+  CMD: (+0.0, +0.0, +0.0) | ACT: (+0.7, +0.3, +0.0) m/s
+  CMD: (+0.0, +0.0, +0.0) | ACT: (+0.3, +0.1, +0.0) m/s
+  CMD: (+0.0, +0.0, +0.0) | ACT: (+0.1, +0.0, +0.0) m/s
+  CMD: (+0.0, +0.0, +0.0) | ACT: (+0.1, +0.0, +0.0) m/s
+  CMD: (+0.0, +0.0, +0.0) | ACT: (+0.0, +0.0, +0.0) m/s
+  CMD: (+0.0, +0.0, +0.0) | ACT: (+0.0, +0.0, -0.0) m/s
+  CMD: (+0.0, +0.0, +0.0) | ACT: (+0.0, +0.0, -0.0) m/s
+  CMD: (+0.0, +0.0, +0.0) | ACT: (+0.0, +0.0, -0.0) m/s
+Returning to launch...
+Mode command sent: RTL, waiting for confirmation...
+Mode confirmed: RTL
+RTL mode set, waiting for vehicle to descend and land...
+  Altitude: 12.6m  Altitude: 12.6m  Altitude: 12.6m  Altitude: 12.6m  Altitude: 12.7m  Altitude: 12.9m  Altitude: 13.1m  Altitude: 13.3m  Altitude: 13.6m  Altitude: 13.8m  Altitude: 14.1m  Altitude: 14.4m  Altitude: 14.6m  Altitude: 14.8m  Altitude: 14.9m  Altitude: 15.0m  Altitude: 15.1m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 15.0m  Altitude: 14.9m  Altitude: 14.8m  Altitude: 14.6m  Altitude: 14.3m  Altitude: 14.0m  Altitude: 13.6m  Altitude: 13.2m  Altitude: 12.8m  Altitude: 12.4m  Altitude: 12.0m  Altitude: 11.7m  Altitude: 11.3m  Altitude: 11.0m  Altitude: 10.7m  Altitude: 10.5m  Altitude: 10.3m  Altitude: 10.2m  Altitude: 10.1m  Altitude: 10.0m  Altitude: 9.9m  Altitude: 9.8m  Altitude: 9.7m  Altitude: 9.5m  Altitude: 9.4m  Altitude: 9.3m  Altitude: 9.1m  Altitude: 9.0m  Altitude: 8.9m  Altitude: 8.8m  Altitude: 8.6m  Altitude: 8.5m  Altitude: 8.4m  Altitude: 8.3m  Altitude: 8.1m  Altitude: 8.0m  Altitude: 7.9m  Altitude: 7.8m  Altitude: 7.6m  Altitude: 7.5m  Altitude: 7.4m  Altitude: 7.3m  Altitude: 7.1m  Altitude: 7.0m  Altitude: 6.9m  Altitude: 6.8m  Altitude: 6.6m  Altitude: 6.5m  Altitude: 6.4m  Altitude: 6.3m
+RTL timeout — vehicle may still be descending
+
+Velocity test complete
