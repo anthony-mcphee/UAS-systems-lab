@@ -2,6 +2,8 @@
 
 A personal systems integration and autonomy lab built around ArduPilot SITL, MAVLink, and Python-based autonomous flight scripting. The focus is field-realistic troubleshooting, telemetry path validation, and autonomous mission development — skills directly applicable to operating software-enabled UAS platforms in austere environments.
 
+The overall objective is to build practical engineering understanding of how autonomous systems are integrated, validated, monitored, and supported in operational environments. The project is intended to mirror the progression from simulation and systems validation into deployable autonomous system workflows similar to those used in modern UAS, robotics, and defense autonomy environments.
+
 ---
 
 ## Lab Architecture
@@ -214,11 +216,29 @@ Full startup workflow, shutdown procedure, and troubleshooting reference:
 
 ## Roadmap
 
+### Near-Term
 - [ ] Integrate serial NMEA beacon input and validate against hardware GPS receiver
 - [ ] Add geofence boundary enforcement to state machine
 - [ ] Expand to multi-waypoint patrol mission with beacon hand-off
-- [ ] Test full stack against physical hardware (companion computer + Pixhawk)
 - [ ] Add MAVLink parameter push/pull via script for pre-flight configuration
+- [ ] Mission failover logic — automated RTL/loiter on link loss or fence breach
+
+### Hardware Integration
+- [ ] Hardware flight controller integration (Pixhawk)
+- [ ] Telemetry radio integration (SiK / RFD900)
+- [ ] Companion computer workflows using Raspberry Pi
+- [ ] Multi-system telemetry routing across hardware and GCS
+
+### Autonomy Expansion
+- [ ] Dynamic waypoint generation based on sensor or beacon input
+- [ ] Search-pattern automation (lawnmower, expanding spiral)
+- [ ] GPS target tracking with real beacon hardware
+- [ ] Autonomous return and loiter behaviors
+- [ ] Real-time telemetry analysis and anomaly detection
+
+### Long-Term
+- [ ] Transition portions of the control stack to Rust
+- [ ] Full hardware-in-the-loop (HIL) validation workflow
 
 ---
 
