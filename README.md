@@ -45,7 +45,7 @@ UAS-systems-lab/
 ├── diagrams/         # Lab architecture and data flow diagrams
 ├── docs/             # Setup guides, startup workflow, and troubleshooting references
 │   └── startup_workflow.md
-├── logs/             # Runtime telemetry logs (gitignored — generated at runtime)
+├── logs/             # Telemetry logs from completed SITL sessions — proof of working system
 ├── missions/         # Waypoint mission files
 ├── networking/       # Network topology notes and MAVProxy routing configs
 ├── screenshots/      # GCS and terminal screenshots from lab sessions
