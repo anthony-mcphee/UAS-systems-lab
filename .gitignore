@@ -1,3 +1,8 @@
+# Runtime logs — never commit generated output
+logs/*.csv
+logs/*.log
+logs/*.txt
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
