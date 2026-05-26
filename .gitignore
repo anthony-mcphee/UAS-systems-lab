@@ -216,3 +216,7 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# UAS Lab specific
+logs/*.log
+logs/*.csv

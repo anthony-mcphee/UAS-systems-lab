@@ -1,0 +1,38 @@
+# ============================================================
+# Beacon Follower — Configuration
+# ============================================================
+
+connection:
+  uri: "udpin:127.0.0.1:14551"   # Change to serial:///dev/ttyUSB0:57600 for hardware
+
+home:
+  lat: -35.363262
+  lon: 149.165237
+
+altitudes:
+  takeoff: 20        # meters AGL
+  follow: 20         # cruise altitude while tracking
+  descend_high: 12   # first descent waypoint
+  descend_low: 5     # second descent waypoint before land
+
+follow:
+  radius_m: 8        # distance threshold to consider "over beacon"
+  update_rate_sec: 1 # main loop interval
+
+beacon:
+  # Source options: "simulate" | "udp" | "serial"
+  source: "simulate"
+
+  # UDP settings (used when source = "udp")
+  udp:
+    host: "0.0.0.0"
+    port: 5005
+
+  # Serial/NMEA settings (used when source = "serial")
+  serial:
+    port: "/dev/ttyUSB0"
+    baudrate: 9600
+
+logging:
+  log_dir: "logs"
+  level: "INFO"       # DEBUG | INFO | WARNING | ERROR
