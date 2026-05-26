@@ -24,6 +24,15 @@ QGroundControl     Python MAVLink Scripts
 ```
 
 ---
+## System in Operation
+
+QGroundControl connected with simulated vehicle on map, telemetry active:
+![QGroundControl connected](screenshots/qgc_ready_to_fly.png)
+
+Guided waypoint mission executing — live position, groundspeed, altitude, and distance-to-waypoint telemetry:
+![Guided waypoint mission active](screenshots/guided_waypoint_mission_active.png)
+
+---
 
 ## Demonstrated Capabilities
 
@@ -237,8 +246,6 @@ Full startup workflow, shutdown procedure, and troubleshooting reference:
 - [ ] Real-time telemetry analysis and anomaly detection
 
 ### Long-Term
-- [ ] Transition portions of the control stack to Rust
-- [ ] Full hardware-in-the-loop (HIL) validation workflow
 
 ---
 
