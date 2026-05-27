@@ -1,6 +1,6 @@
 # UAS Systems Lab
 
-A personal systems integration and autonomy lab built around ArduPilot SITL, MAVLink, and Python-based autonomous flight scripting. The focus is field-realistic troubleshooting, telemetry path validation, and autonomous mission development — skills directly applicable to operating software-enabled UAS platforms in austere environments.
+A personal systems integration and autonomy lab built around ArduPilot SITL, MAVLink, and Python-based autonomous flight scripting. The focus is field-realistic troubleshooting, telemetry path validation, and autonomous mission development; skills directly applicable to operating software-enabled UAS platforms in austere environments.
 
 The overall objective is to build practical engineering understanding of how autonomous systems are integrated, validated, monitored, and supported in operational environments. The project is intended to mirror the progression from simulation and systems validation into deployable autonomous system workflows similar to those used in modern UAS, robotics, and defense autonomy environments.
 
