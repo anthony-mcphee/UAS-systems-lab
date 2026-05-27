@@ -37,12 +37,12 @@ Guided waypoint mission executing — live position, groundspeed, altitude, and 
 ## Demonstrated Capabilities
 
 - Autonomous waypoint mission execution in SITL
-- MAVLink telemetry flow over UDP — validated end-to-end from SITL to GCS and Python scripts
+- MAVLink telemetry flow over UDP. Validated end-to-end from SITL to GCS and Python scripts
 - Python-based beacon-follow state machine with keyboard operator override
 - Staged descent logic: follow → approach → descend high → descend low → land
 - Swappable GPS beacon input layer: simulated, UDP, and serial/NMEA
 - Structured telemetry logging to CSV (replayable for post-flight analysis)
-- Config-file-driven parameters — no hardcoded values in mission scripts
+- Config-file-driven parameters. No hardcoded values in mission scripts
 - Safe shutdown handling: Ctrl-C triggers RTL instead of hard exit
 - Linux service, log, and network troubleshooting in Ubuntu/WSL environment
 
@@ -56,7 +56,7 @@ UAS-systems-lab/
 ├── diagrams/         # Lab architecture and data flow diagrams
 ├── docs/             # Setup guides, startup workflow, and troubleshooting references
 │   └── startup_workflow.md
-├── logs/             # Telemetry logs from completed SITL sessions — proof of working system
+├── logs/             # Telemetry logs from completed SITL sessions. Proof of working system
 ├── missions/         # Waypoint mission files
 ├── networking/       # Network topology notes and MAVProxy routing configs
 ├── screenshots/      # GCS and terminal screenshots from lab sessions
@@ -151,7 +151,7 @@ The primary mission script (`scripts/beacon_follower.py`) implements a state mac
 
 | Source | Description |
 |---|---|
-| `simulate` | Circular motion around home — used for SITL testing |
+| `simulate` | Circular motion around home. Used for SITL testing |
 | `udp` | Listens for `lat,lon` datagrams on a configurable port |
 | `serial` | Reads NMEA GGA/RMC sentences from a GPS receiver over UART |
 
@@ -208,8 +208,8 @@ logging:
 
 | Symptom | Likely Cause | Fix |
 |---|---|---|
-| `Connection refused` | SITL not ready or port 5760 not open | `ss -tlnp \| grep 5760` — wait for SITL to fully initialize before launching MAVProxy |
-| QGroundControl "Communication Lost" | Python script on wrong port | Confirm Python uses 14551, QGC uses 14550 — they must not share a port |
+| `Connection refused` | SITL not ready or port 5760 not open | `ss -tlnp \| grep 5760`; wait for SITL to fully initialize before launching MAVProxy |
+| QGroundControl "Communication Lost" | Python script on wrong port | Confirm Python uses 14551, QGC uses 14550: they must not share a port |
 | MAVProxy missing modules | Dependency gap | `python3 -m pip install --user MAVProxy future --break-system-packages` |
 | venv active in wrong terminal | Environment bleed | SITL, MAVProxy, QGC = no venv. Python scripts = project venv only |
 | Vehicle not arming | Pre-arm checks failing | Check GPS lock and telemetry values in QGC before running scripts |
