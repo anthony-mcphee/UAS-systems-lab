@@ -11,7 +11,8 @@
 Virtual environment used for ArduPilot and MAVLink experimentation:
 
 ```bash
-source ~/venv-ardupilot/bin/activate
+cd ~/drone-control
+source venv/bin/activate
 ```
 
 ## Core Components

@@ -270,4 +270,3 @@ Rules:
   2. MAVProxy
   3. QGroundControl
   4. Python scripts
-EOF

@@ -1,4 +1,13 @@
 """
+mission.py — V1 learning artifact. Superseded by guided_waypoint_mission.py.
+
+Differences from the current version:
+- Uses angular distance (distance_degrees) instead of haversine — inaccurate at scale
+- Takeoff waits on a fixed sleep rather than confirming altitude reached
+- Single waypoint, no multi-leg pattern, no ACK checking
+
+Kept for progression reference. Do not use for new missions.
+---
 Guided waypoint mission test for ArduPilot SITL.
 
 Mission sequence:
