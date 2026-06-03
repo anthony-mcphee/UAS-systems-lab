@@ -15,7 +15,3 @@ The key architectural point: MAVProxy acts as a telemetry multiplexer, allowing
 both the GCS (QGroundControl) and the automation layer (Python scripts) to consume
 the same MAVLink stream simultaneously on separate ports — without either client
 interfering with the other.
-
-This mirrors the separation between a crew chief's monitoring station and the
-pilot's instruments in a manned aircraft: same data source, independent consumers,
-no contention.
