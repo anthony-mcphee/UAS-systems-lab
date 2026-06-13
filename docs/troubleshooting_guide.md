@@ -161,6 +161,59 @@ tcpdump -i any port 14551
 
 ---
 
+# Fault 6: SiK Ground Radio Not Recognized on Windows
+
+## Symptoms
+
+- Windows does not assign a COM port to the SiK ground radio
+- Device Manager shows unknown or unrecognized device
+- QGroundControl cannot connect over radio link
+
+## Possible Causes
+
+- Silicon Labs CP210x USB driver not installed on Windows
+
+## Isolation Steps
+
+1. Open **Device Manager** on Windows.
+2. Look for an unknown device under **Other Devices** or **Ports (COM & LPT)**.
+3. Check if a COM port is assigned — if not, driver is missing.
+
+## Corrective Action
+
+1. Download and install the **Silicon Labs CP210x Universal Windows Driver** from the Silicon Labs website.
+2. Reconnect the SiK ground radio.
+3. Verify a COM port appears in Device Manager.
+4. Air and ground units will pair automatically once the driver is installed — no manual pairing required.
+
+---
+
+# Fault 7: SiK Radio Link Not Establishing
+
+## Symptoms
+
+- Both radios powered but QGC shows no vehicle
+- LEDs on radios not solid green
+
+## Possible Causes
+
+- Radios not matched (different firmware or NET ID configuration)
+- Air unit not powered (Pixhawk not powered)
+- COM port not selected in QGC
+
+## Isolation Steps
+
+1. Confirm the Pixhawk is powered (wall charger or USB).
+2. Confirm the ground radio COM port is correct in QGC connection settings.
+3. Check LED status on both radios — solid green indicates linked.
+4. If LEDs are blinking rapidly, radios are searching for a link — verify NET IDs match.
+
+## Corrective Action
+
+If NET IDs are mismatched, reconfigure both radios using SiK Radio firmware tools to use the same NET ID. Factory-matched pairs from the same kit link automatically without reconfiguration.
+
+---
+
 # Troubleshooting Philosophy
 
 Use a structured fault-isolation method:

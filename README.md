@@ -26,6 +26,22 @@ QGroundControl     Python MAVLink Scripts
 ---
 ## System in Operation
 
+**Hardware — Pixhawk 6C Mini bench integration:**
+
+Pixhawk connected to QGC via USB, ArduPilot 1.16.0 confirmed:
+![Pixhawk QGC connected, firmware confirmed](screenshots/pixhawk_qgc_connected_firmware_confirmed.png)
+
+All sensors calibrated — accelerometer, gyroscope, external M10 GPS compass:
+![Sensors calibration complete](screenshots/sensors_calibration_complete.png)
+
+M10 GPS 3D lock — 27 satellites, 0.5 HDOP, external compass set as primary:
+![GPS 3D lock, 27 satellites](screenshots/gps_3d_lock_27_satellites.png)
+
+QGC "Ready To Fly" over SiK radio wireless link — Pixhawk on wall power, no USB tether:
+![SiK radio wireless link, Ready To Fly](screenshots/sik_radio_wireless_link_ready_to_fly.png)
+
+**Simulation — ArduPilot SITL:**
+
 QGroundControl connected with simulated vehicle on map, telemetry active:
 ![QGroundControl connected](screenshots/qgc_ready_to_fly.png)
 
@@ -36,6 +52,13 @@ Guided waypoint mission executing — live position, groundspeed, altitude, and 
 
 ## Demonstrated Capabilities
 
+**Hardware Integration:**
+- Pixhawk 6C Mini bench setup — ArduPilot firmware confirmed, full sensor calibration completed
+- Holybro M10 GPS integration — 3D lock confirmed with 27 satellites, 0.5 HDOP, external compass set as primary
+- SiK Telemetry Radio V3 wireless link — QGC "Ready To Fly" over COM4 with Pixhawk on wall power, no USB tether
+- COM port driver troubleshooting and SiK radio pairing on Windows
+
+**Simulation (SITL):**
 - Autonomous waypoint mission execution in SITL
 - MAVLink telemetry flow over UDP. Validated end-to-end from SITL to GCS and Python scripts
 - Python-based beacon-follow state machine with keyboard operator override
@@ -55,7 +78,11 @@ UAS-systems-lab/
 ├── configs/          # YAML config files for mission parameters and connection settings
 ├── diagrams/         # Lab architecture and data flow diagrams
 ├── docs/             # Setup guides, startup workflow, and troubleshooting references
-│   └── startup_workflow.md
+│   ├── hardware_setup_guide.md    # Pixhawk, GPS, SiK radio bench integration
+│   ├── lab_environment.md         # Host system and environment reference
+│   ├── startup_workflow.md        # SITL startup and shutdown procedure
+│   ├── telemetry_architecture.md  # MAVLink telemetry flow documentation
+│   └── troubleshooting_guide.md   # Common faults and corrective actions
 ├── logs/             # Telemetry logs from completed SITL sessions. Proof of working system
 ├── missions/         # Waypoint mission files
 ├── networking/       # Network topology notes and MAVProxy routing configs
@@ -218,8 +245,13 @@ logging:
 
 ## Documentation
 
-Full startup workflow, shutdown procedure, and troubleshooting reference:
-[docs/startup_workflow.md](docs/startup_workflow.md)
+| Document | Description |
+|---|---|
+| [docs/hardware_setup_guide.md](docs/hardware_setup_guide.md) | Pixhawk, GPS, and SiK radio bench integration |
+| [docs/startup_workflow.md](docs/startup_workflow.md) | SITL startup, shutdown, and port layout |
+| [docs/telemetry_architecture.md](docs/telemetry_architecture.md) | MAVLink telemetry flow — SITL and hardware paths |
+| [docs/lab_environment.md](docs/lab_environment.md) | Host system and environment reference |
+| [docs/troubleshooting_guide.md](docs/troubleshooting_guide.md) | Common faults and corrective actions |
 
 ---
 
@@ -233,8 +265,8 @@ Full startup workflow, shutdown procedure, and troubleshooting reference:
 - [ ] Mission failover logic — automated RTL/loiter on link loss or fence breach
 
 ### Hardware Integration
-- [ ] Hardware flight controller integration (Pixhawk)
-- [ ] Telemetry radio integration (SiK / RFD900)
+- [x] Hardware flight controller integration (Pixhawk 6C Mini — ArduPilot 1.16.0, full sensor calibration)
+- [x] Telemetry radio integration (SiK V3 — wireless QGC link validated, Ready To Fly confirmed)
 - [ ] Companion computer workflows using Raspberry Pi
 - [ ] Multi-system telemetry routing across hardware and GCS
 
@@ -253,9 +285,12 @@ Full startup workflow, shutdown procedure, and troubleshooting reference:
 
 | Component | Tool |
 |---|---|
-| Autopilot | ArduPilot (ArduCopter) |
+| Flight Controller | Pixhawk 6C Mini (ArduPilot 1.16.0) |
+| GPS | Holybro M10 GPS (external compass, primary) |
+| Telemetry Radio | SiK Telemetry Radio V3 (air + ground) |
+| GCS | QGroundControl (Windows) |
+| Autopilot (sim) | ArduPilot (ArduCopter) |
 | Simulation | SITL via `sim_vehicle.py` |
-| GCS | QGroundControl, MAVProxy |
-| Telemetry | MAVLink over UDP |
+| Telemetry (sim) | MAVLink over UDP via MAVProxy |
 | Scripting | Python 3, pymavlink, pyserial, PyYAML |
-| Environment | Ubuntu 22.04 / WSL2 |
+| Environment | Ubuntu 24.04 / WSL2, Windows |

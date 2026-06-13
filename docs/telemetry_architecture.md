@@ -2,7 +2,50 @@
 
 ## Purpose
 
-This document explains telemetry flow and communication architecture within the UAS Systems Lab.
+This document explains telemetry flow and communication architecture within the UAS Systems Lab — both the hardware radio path and the SITL simulation path.
+
+---
+
+# Architecture Overview
+
+## Hardware Telemetry Path (Physical)
+
+```text
+[Pixhawk 6C Mini]
+        |
+     TELEM1
+        |
+  [SiK Air Radio]
+        |
+    (wireless)
+        |
+  [SiK Ground Radio]
+        |
+      COM4
+        |
+  [QGroundControl]
+     (Windows)
+```
+
+MAVLink transmitted wirelessly over SiK radio. No USB tether required. QGC connects automatically on COM4.
+
+---
+
+## Simulation Telemetry Path (SITL)
+
+```text
+ArduPilot SITL
+    |
+    | MAVLink (TCP 5760)
+    v
+MAVProxy
+    |
+    +------> QGroundControl (UDP 14550)
+    |
+    +------> Python Scripts (UDP 14551)
+```
+
+MAVLink routed locally over UDP via MAVProxy. Both GCS and Python scripts receive independent telemetry streams.
 
 ---
 
@@ -76,6 +119,8 @@ Acts As:
 ---
 
 # Telemetry Flow
+
+## SITL Path
 
 ```text
 ArduPilot SITL
