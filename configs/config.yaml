@@ -9,8 +9,8 @@ connection:
   # uri: "udpin:127.0.0.1:14551"
 
 home:
-  lat: -35.363262
-  lon: 149.165237
+  lat: 21.2969
+  lon: -157.7228
 
 altitudes:
   takeoff: 20        # meters AGL
