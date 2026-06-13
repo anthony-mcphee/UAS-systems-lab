@@ -3,7 +3,10 @@
 # ============================================================
 
 connection:
-  uri: "udpin:127.0.0.1:14551"   # Change to serial:///dev/ttyUSB0:57600 for hardware
+  # Hardware (SiK ground radio on COM4 via WSL serial passthrough):
+  uri: "serial:///dev/ttyS4:57600"
+  # SITL (MAVProxy UDP output):
+  # uri: "udpin:127.0.0.1:14551"
 
 home:
   lat: -35.363262

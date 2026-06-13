@@ -1,11 +1,17 @@
+import argparse
+
+import yaml
 from pymavlink import mavutil
 
-CONNECTION_STRING = "udpin:127.0.0.1:14551"
 
-def connect_vehicle():
-    print(f"Connecting to MAVLink stream on {CONNECTION_STRING}")
+def load_uri(config_path: str) -> str:
+    with open(config_path, "r") as f:
+        return yaml.safe_load(f)["connection"]["uri"]
 
-    master = mavutil.mavlink_connection(CONNECTION_STRING)
+
+def connect_vehicle(uri: str):
+    print(f"Connecting to {uri}...")
+    master = mavutil.mavlink_connection(uri)
 
     print("Waiting for heartbeat...")
     master.wait_heartbeat()
@@ -16,5 +22,11 @@ def connect_vehicle():
 
     return master
 
+
 if __name__ == "__main__":
-    connect_vehicle()
+    parser = argparse.ArgumentParser(description="MAVLink heartbeat test")
+    parser.add_argument("--config", default="configs/config.yaml", help="Path to config YAML")
+    args = parser.parse_args()
+
+    uri = load_uri(args.config)
+    connect_vehicle(uri)
